@@ -29,6 +29,9 @@ end
 # Make ssh use gpg
 export SSH_AUTH_SOCK=$HOME/.gnupg/S.gpg-agent.ssh
 
+# Set locale
+set -gx LC_ALL en_US.UTF-8
+
 ########################################
 # General abbreviations
 #######################################
