@@ -11,6 +11,7 @@ SETUVAR _fish_abbr_gaa:git\x20add\x20\x2d\x2dall
 SETUVAR _fish_abbr_gc:git\x20commit\x20\x2dv
 SETUVAR _fish_abbr_gcf:git\x20commit\x20\x2dv\x20\x2d\x2dfixup
 SETUVAR _fish_abbr_gch:git\x20checkout
+SETUVAR _fish_abbr_gcl:gcloud
 SETUVAR _fish_abbr_gcp:git\x20cherry\x2dpick
 SETUVAR _fish_abbr_gd:git\x20diff
 SETUVAR _fish_abbr_gds:git\x20diff\x20\x2d\x2dstaged

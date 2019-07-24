@@ -41,6 +41,7 @@ abbr -a dc docker-compose
 abbr -a d docker
 abbr -a k kubectl
 abbr -a grubo 'git diff --name-only --diff-filter=d (git log --merges -1 --pretty=format:%H) | xargs bundle exec rubocop'
+abbr -a gcl gcloud
 
 ########################################
 # Git abbreviations
@@ -57,5 +58,5 @@ abbr -a gs git status -s
 abbr -a gss git status
 abbr -a gp git push -u
 abbr -a gch git checkout
-abbr -a bdiff 'git log --pretty=format:"%C(yellow)%H | %ad%Cred%d | %Creset%s%Cblue | [%cn] [%ae]" --abbrev-commit --date=relative' 
+abbr -a bdiff 'git log --pretty=format:"%C(yellow)%H | %ad%Cred%d | %Creset%s%Cblue | [%cn] [%ae]" --abbrev-commit --date=relative'
 abbr -a gcp git cherry-pick
