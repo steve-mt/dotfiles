@@ -46,3 +46,7 @@ autocmd BufWritePre * %s/\s\+$//e
 " Run jq on a JSON file to be formatted automatically.
 autocmd FileType json autocmd BufWritePre <buffer> %!jq
 
+" Show tabs and spaces
+set list
+set listchars=tab:>-
+
