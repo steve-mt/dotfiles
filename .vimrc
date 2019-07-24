@@ -38,3 +38,8 @@ set background=dark
 colorscheme solarized
 hi Normal ctermbg=none
 highlight NonText ctermbg=none
+
+" Remove unwanted spaces
+" https://vim.fandom.com/wiki/Remove_unwanted_spaces on save
+autocmd BufWritePre * %s/\s\+$//e
+
