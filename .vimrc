@@ -43,3 +43,6 @@ highlight NonText ctermbg=none
 " https://vim.fandom.com/wiki/Remove_unwanted_spaces on save
 autocmd BufWritePre * %s/\s\+$//e
 
+" Run jq on a JSON file to be formatted automatically.
+autocmd FileType json autocmd BufWritePre <buffer> %!jq
+
