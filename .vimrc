@@ -23,6 +23,8 @@ autocmd FileType ruby setlocal commentstring=#\ %s
 
 " Set indentation per file type
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab " 2 spaces for yaml
+autocmd FileType json setlocal ts=2 sts=2 sw=2 expandtab " 2 spaces for json
+autocmd FileType ruby setlocal ts=2 sts=2 sw=2 expandtab " 2 spaces for ruby
 autocmd FileType sh setlocal ts=4 sts=4 sw=4 expandtab " 4 spaces for bash
 autocmd FileType markdown setlocal ts=4 sts=4 sw=4 expandtab " 4 spaces for markdown
 autocmd FileType toml setlocal ts=4 sts=4 sw=4 expandtab " 4 spaces for toml
