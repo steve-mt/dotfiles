@@ -28,6 +28,7 @@ autocmd FileType ruby setlocal ts=2 sts=2 sw=2 expandtab " 2 spaces for ruby
 autocmd FileType sh setlocal ts=4 sts=4 sw=4 expandtab " 4 spaces for bash
 autocmd FileType markdown setlocal ts=4 sts=4 sw=4 expandtab " 4 spaces for markdown
 autocmd FileType toml setlocal ts=4 sts=4 sw=4 expandtab " 4 spaces for toml
+autocmd FileType conf setlocal ts=4 sts=4 sw=4 expandtab " 4 spaces for powershell
 
 " Set up nerdtree
 map <C-n> :NERDTreeToggle<CR>
@@ -52,3 +53,9 @@ autocmd FileType json autocmd BufWritePre <buffer> %!jq
 set list
 set listchars=tab:>-
 
+" Set up FZF
+set rtp+=/usr/local/opt/fzf
+
+"Mappings
+" <C-p> or <C-t> to search files
+nnoremap <silent> <C-p> :FZF -m<cr>

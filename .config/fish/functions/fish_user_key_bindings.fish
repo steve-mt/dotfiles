@@ -37,6 +37,9 @@ set -gx LC_ALL en_US.UTF-8
 # Make `nnn` open file with $EDITOR
 set -gx NNN_USE_EDITOR 1
 
+# Configure FZF to use fd
+set -gx FZF_DEFAULT_COMMAND 'fd --hidden --type f'
+
 ########################################
 # General abbreviations
 #######################################
