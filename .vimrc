@@ -58,5 +58,5 @@ set listchars=tab:>-
 set rtp+=/usr/local/opt/fzf
 
 "Mappings
-" <C-p> or <C-t> to search files
+" <ctrl-p>  to search files
 nnoremap <silent> <C-p> :FZF -m<cr>
