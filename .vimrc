@@ -20,6 +20,7 @@ match ExtraWhitespace /\s\+$/
 autocmd FileType toml setlocal commentstring=#\ %s
 autocmd FileType sh setlocal commentstring=#\ %s
 autocmd FileType ruby setlocal commentstring=#\ %s
+autocmd FileType yaml setlocal commentstring=#\ %s
 
 " Set indentation per file type
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab " 2 spaces for yaml
