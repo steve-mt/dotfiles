@@ -50,6 +50,7 @@ abbr -a d docker
 abbr -a k kubectl
 abbr -a grubo 'git diff --name-only --diff-filter=d (git log --merges -1 --pretty=format:%H) | xargs bundle exec rubocop'
 abbr -a gcl gcloud
+abbr -a cl clear
 
 ########################################
 # Git abbreviations
