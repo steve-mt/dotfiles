@@ -12,6 +12,9 @@ set -gx GPG_TTY (tty)
 set -gx GOPATH $HOME/Code/go
 set -gx PATH $PATH $GOPATH/bin
 
+# Rust installation
+set -gx PATH $PATH $HOME/.cargo/bin
+
 # GitLab installation
 set -gx GDKPATH ~/Code/gitlab.com/gitlab-org/gitlab
 set -gx PATH $PATH /usr/local/opt/postgresql@10/bin
