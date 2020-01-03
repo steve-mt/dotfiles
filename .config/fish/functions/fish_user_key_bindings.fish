@@ -14,7 +14,7 @@ set -gx PATH $PATH $GOPATH/bin
 
 # GitLab installation
 set -gx GDKPATH ~/Code/gitlab.com/gitlab-org/gitlab
-set -gx PATH $PATH /usr/local/opt/postgresql@9.6/bin
+set -gx PATH $PATH /usr/local/opt/postgresql@10/bin
 set -gx PKG_CONFIG_PATH $PKG_CONFIG_PATH "/usr/local/opt/icu4c/lib/pkgconfig" # For pkg-config to find icu4c you may need to set
 
 # Vim all the things
