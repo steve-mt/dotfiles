@@ -4,3 +4,4 @@ package nvm
 package rvm
 package z
 theme default
+theme nai

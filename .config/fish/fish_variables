@@ -3,6 +3,7 @@
 SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR _fish_abbr_bdiff:git\x20log\x20\x2d\x2dpretty\x3dformat\x3a\x22\x25C\x28yellow\x29\x25H\x20\x7c\x20\x25ad\x25Cred\x25d\x20\x7c\x20\x25Creset\x25s\x25Cblue\x20\x7c\x20\x5b\x25cn\x5d\x20\x5b\x25ae\x5d\x22\x20\x2d\x2dabbrev\x2dcommit\x20\x2d\x2ddate\x3drelative
+SETUVAR _fish_abbr_cl:clear
 SETUVAR _fish_abbr_d:docker
 SETUVAR _fish_abbr_dc:docker\x2dcompose
 SETUVAR _fish_abbr_g:git
@@ -17,9 +18,11 @@ SETUVAR _fish_abbr_gd:git\x20diff
 SETUVAR _fish_abbr_gds:git\x20diff\x20\x2d\x2dstaged
 SETUVAR _fish_abbr_gl:git\x20log\x20\x2d\x2dpretty\x3dformat\x3a\x22\x25C\x28yellow\x29\x25H\x20\x7c\x20\x25ad\x25Cred\x25d\x20\x7c\x20\x25Creset\x25s\x25Cblue\x20\x7c\x20\x5b\x25cn\x5d\x20\x5b\x25ae\x5d\x22\x20\x2d\x2ddecorate\x20\x2d\x2ddate\x3dshort
 SETUVAR _fish_abbr_gp:git\x20push\x20\x2du
+SETUVAR _fish_abbr_gr:git\x20restore
 SETUVAR _fish_abbr_grubo:git\x20diff\x20\x2d\x2dname\x2donly\x20\x2d\x2ddiff\x2dfilter\x3dd\x20\x28git\x20log\x20\x2d\x2dmerges\x20\x2d1\x20\x2d\x2dpretty\x3dformat\x3a\x25H\x29\x20\x7c\x20xargs\x20bundle\x20exec\x20rubocop
 SETUVAR _fish_abbr_gs:git\x20status\x20\x2ds
 SETUVAR _fish_abbr_gss:git\x20status
+SETUVAR _fish_abbr_gsw:git\x20switch
 SETUVAR _fish_abbr_k:kubectl
 SETUVAR _fish_abbr_ll:ls\x20\x2dla
 SETUVAR _fish_abbr_va:vagrant
