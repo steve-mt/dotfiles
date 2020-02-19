@@ -1,9 +1,0 @@
-/build/
-/machines/
-/.tests/
-
-/config.toml
-/my.auth
-/service-account.json
-/gl-code-quality-report.json
-
