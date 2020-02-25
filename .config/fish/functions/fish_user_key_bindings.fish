@@ -72,3 +72,4 @@ abbr -a gsw git switch
 abbr -a gr git restore
 abbr -a bdiff 'git log --pretty=format:"%C(yellow)%H | %ad%Cred%d | %Creset%s%Cblue | [%cn] [%ae]" --abbrev-commit --date=relative'
 abbr -a gcp git cherry-pick
+abbr -a o orka
