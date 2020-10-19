@@ -63,8 +63,8 @@ abbr -a gaa git add --all
 abbr -a gl 'git log --pretty=format:"%C(yellow)%H | %ad%Cred%d | %Creset%s%Cblue | [%cn] [%ae]" --decorate --date=short'
 abbr -a gc git commit -v
 abbr -a gcf git commit -v --fixup
-abbr -a gd git diff
-abbr -a gds git diff --staged
+abbr -a gd git diff --color-moved
+abbr -a gds git diff --staged --color-moved
 abbr -a gs git status -s
 abbr -a gss git status
 abbr -a gp git push -u
