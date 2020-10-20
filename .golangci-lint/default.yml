@@ -14,7 +14,7 @@ issues:
 
 linters-settings:
   gocyclo:
-    min-complexity: 10
+    min-complexity: 20
   golint:
     # minimal confidence for issues, default is 0.8
     min-confidence: 0
