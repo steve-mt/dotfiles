@@ -9,7 +9,7 @@ end
 set -gx GPG_TTY (tty)
 
 # GO installation
-set -gx GOPATH $HOME/Code/go
+set -gx GOPATH $HOME/go
 set -gx PATH $PATH $GOPATH/bin
 
 # Rust installation
