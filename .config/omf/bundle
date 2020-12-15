@@ -1,5 +1,4 @@
-package aws
-package foreign-env
+package fzf
 package z
 theme default
 theme nai
