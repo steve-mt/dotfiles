@@ -49,30 +49,26 @@
   selected = normal
   separator = red bold
   linenumber = normal
-[user]
-    name = Steve Azzopardi
-	email = sazzopardi@gitlab.com
-	signingkey = B6FAD416292DEF2B
 [core]
     editor = vim
-	autocrlf = input
-	excludesfile = /Users/steve/.gitignore
-[commit]
-	gpgsign = true
+    autocrlf = input
+    excludesfile = /Users/steve/.gitignore
 [pull]
-	rebase = true
+    rebase = true
 [alias]
   mr = !sh -c 'git fetch $1 merge-requests/$2/head:mr-$1-$2 && git checkout mr-$1-$2' -
 [protocol]
-	version = 2
+    version = 2
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
 [http]
-	cookiefile = /Users/steve/.gitcookies
+    cookiefile = /Users/steve/.gitcookies
 [gpg]
-	program = gpg
+    program = gpg
 [init]
-	defaultBranch = main
+    defaultBranch = main
+[includeIf "gitdir:/"]
+  path = ~/.gitconfig-mbp
