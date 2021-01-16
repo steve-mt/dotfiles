@@ -70,5 +70,3 @@
   defaultBranch = main
 [includeIf "gitdir:/"]
   path = ~/.gitconfig-mbp
-[commit]
-  gpgsign = true
