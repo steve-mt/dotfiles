@@ -49,10 +49,10 @@ abbr -a va vagrant
 abbr -a dc docker-compose
 abbr -a d docker
 abbr -a k kubectl
-abbr -a grubo 'git diff --name-only --diff-filter=d (git log --merges -1 --pretty=format:%H) | xargs bundle exec rubocop'
-abbr -a gcl gcloud
 abbr -a cl clear
 abbr -a o orka
+abbr -a aws docker run --rm -it -v ~/.aws:/root/.aws amazon/aws-cli
+abbr -a gcl docker run --rm -it -v $PWD/.config/gcloud:/root/.config/gcloud google/cloud-sdk gcloud
 
 ########################################
 # Git abbreviations
@@ -72,4 +72,3 @@ abbr -a gsw git switch
 abbr -a gr git restore
 abbr -a bdiff 'git log --pretty=format:"%C(yellow)%H | %ad%Cred%d | %Creset%s%Cblue | [%cn] [%ae]" --abbrev-commit --date=relative'
 abbr -a gcp git cherry-pick
-abbr -a o orka
