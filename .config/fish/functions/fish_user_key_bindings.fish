@@ -16,7 +16,7 @@ set -gx PATH $PATH $GOPATH/bin
 set -gx PATH $PATH $HOME/.cargo/bin
 
 # GitLab installation
-set -gx GDKPATH ~/Code/gitlab.com/gitlab-org/gitlab
+set -gx GDKPATH ~/code/gitlab.com/gitlab-org/gitlab
 set -gx PKG_CONFIG_PATH $PKG_CONFIG_PATH "/usr/local/opt/icu4c/lib/pkgconfig" # For pkg-config to find icu4c you may need to set
 
 # Vim all the things
