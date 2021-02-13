@@ -35,8 +35,11 @@ export SSH_AUTH_SOCK=$HOME/.gnupg/S.gpg-agent.ssh
 # Set locale
 set -gx LC_ALL en_US.UTF-8
 
+# `nnn` settings
 # Make `nnn` open file with $EDITOR
 set -gx NNN_USE_EDITOR 1
+# Show hidden files
+set -gx NNN_OPTS "H"
 
 # Configure FZF to use fd
 set -gx FZF_DEFAULT_COMMAND 'fd --hidden --type f'
