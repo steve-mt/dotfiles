@@ -55,7 +55,7 @@ abbr -a k kubectl
 abbr -a cl clear
 abbr -a o orka
 abbr -a aws docker run --rm -it -v ~/.aws:/root/.aws amazon/aws-cli
-abbr -a gcl docker run --rm -it -v $PWD/.config/gcloud:/root/.config/gcloud google/cloud-sdk gcloud
+abbr -a gcl docker run --rm -it -v ~/.config/gcloud:/root/.config/gcloud -v ~/.ssh:/root/.ssh google/cloud-sdk gcloud
 
 ########################################
 # Git abbreviations
