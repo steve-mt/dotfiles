@@ -13,6 +13,7 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 
 " Run on save
 autocmd FileType json autocmd BufWritePre <buffer> %!jq " run JSON files through jq
+autocmd BufWritePre * %s/\s\+$//e " Remove unwanted spaces https://vim.fandom.com/wiki/Remove_unwanted_spaces
 
 " Indentation
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
