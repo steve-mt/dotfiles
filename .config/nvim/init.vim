@@ -1,5 +1,8 @@
 runtime ./plug.vim
 
+" Keybindings
+nnoremap <C-n> :NERDTreeToggle<CR>
+
 " Color
 set termguicolors
 colorscheme NeoSolarized
