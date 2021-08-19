@@ -8,6 +8,7 @@ call plug#begin()
 
 if has("nvim")
   Plug 'nvim-telescope/telescope.nvim'
+  Plug 'overcache/NeoSolarized'
 endif
 
 call plug#end()
