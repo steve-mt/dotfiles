@@ -8,6 +8,7 @@ call plug#begin()
   Plug 'christoomey/vim-tmux-navigator'
   Plug 'hashivim/vim-terraform'
   Plug 'tpope/vim-commentary'
+  Plug 'dense-analysis/ale'
 
 if has("nvim")
   Plug 'nvim-lua/popup.nvim'
