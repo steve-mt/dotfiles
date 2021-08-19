@@ -30,6 +30,16 @@ autocmd FileType toml setlocal ts=2 sts=2 sw=2 expandtab
 autocmd FileType mustache setlocal ts=2 sts=2 sw=2 expandtab
 autocmd FileType conf setlocal ts=4 sts=4 sw=4 expandtab
 
-" NERDTree
+"""""""""
+" Plugins
+""""""""""
+" preservim/nerdtree
 let NERDTreeShowHidden=1
 let NERDTreeIgnor = ['\.swap$']
+
+" tpope/vim-commentary
+autocmd FileType toml setlocal commentstring=#\ %s
+autocmd FileType sh setlocal commentstring=#\ %s
+autocmd FileType ruby setlocal commentstring=#\ %s
+autocmd FileType yaml setlocal commentstring=#\ %s
+autocmd FileType make setlocal commentstring=#\ %s
