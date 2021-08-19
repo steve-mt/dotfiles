@@ -6,6 +6,7 @@ call plug#begin()
 
   Plug 'preservim/nerdtree'
   Plug 'christoomey/vim-tmux-navigator'
+  Plug 'hashivim/vim-terraform'
 
 if has("nvim")
   Plug 'nvim-lua/popup.nvim'

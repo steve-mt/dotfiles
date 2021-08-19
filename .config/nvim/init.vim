@@ -16,9 +16,11 @@ nnoremap <C-F> <cmd>Telescope live_grep<cr>
 " Run on save
 autocmd FileType json autocmd BufWritePre <buffer> %!jq " run JSON files through jq
 autocmd BufWritePre * %s/\s\+$//e " Remove unwanted spaces https://vim.fandom.com/wiki/Remove_unwanted_spaces
+let g:terraform_fmt_on_save=1
 
 " Indentation
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+autocmd FileType tf setlocal ts=2 sts=2 sw=2 expandtab
 autocmd FileType json setlocal ts=2 sts=2 sw=2 expandtab
 autocmd FileType ruby setlocal ts=2 sts=2 sw=2 expandtab
 autocmd FileType erb setlocal ts=2 sts=2 sw=2 expandtab
