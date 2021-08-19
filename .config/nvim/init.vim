@@ -1,5 +1,8 @@
 runtime ./plug.vim
 
+" General
+set clipboard=unnamed " send yank to clipboard
+
 " Color
 set termguicolors
 colorscheme NeoSolarized
