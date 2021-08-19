@@ -11,6 +11,9 @@ set background=dark
 " Keybindings
 nnoremap <C-n> :NERDTreeToggle<CR>
 
+" Run on save
+autocmd FileType json autocmd BufWritePre <buffer> %!jq " run JSON files through jq
+
 " NERDTree
 let NERDTreeShowHidden=1
 let NERDTreeIgnor = ['\.swap$']
