@@ -8,7 +8,10 @@ call plug#begin()
   Plug 'christoomey/vim-tmux-navigator'
 
 if has("nvim")
+  Plug 'nvim-lua/popup.nvim'
+  Plug 'nvim-lua/plenary.nvim'
   Plug 'nvim-telescope/telescope.nvim'
+  Plug 'nvim-telescope/telescope-fzy-native.nvim'
   Plug 'overcache/NeoSolarized'
 endif
 

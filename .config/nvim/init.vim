@@ -10,6 +10,8 @@ set background=dark
 
 " Keybindings
 nnoremap <C-n> :NERDTreeToggle<CR>
+nnoremap <C-p> <cmd>Telescope find_files<cr>
+nnoremap <C-F> <cmd>Telescope live_grep<cr>
 
 " Run on save
 autocmd FileType json autocmd BufWritePre <buffer> %!jq " run JSON files through jq
@@ -29,4 +31,3 @@ autocmd FileType conf setlocal ts=4 sts=4 sw=4 expandtab
 " NERDTree
 let NERDTreeShowHidden=1
 let NERDTreeIgnor = ['\.swap$']
-
