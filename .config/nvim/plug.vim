@@ -9,6 +9,8 @@ call plug#begin()
   Plug 'hashivim/vim-terraform'
   Plug 'tpope/vim-commentary'
   Plug 'dense-analysis/ale'
+  Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
 
 if has("nvim")
   Plug 'nvim-lua/popup.nvim'
