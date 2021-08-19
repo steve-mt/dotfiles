@@ -1,0 +1,1 @@
+runtime ./plug.vim
