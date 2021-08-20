@@ -9,8 +9,6 @@ call plug#begin()
   Plug 'hashivim/vim-terraform'
   Plug 'tpope/vim-commentary'
   Plug 'dense-analysis/ale'
-  Plug 'vim-airline/vim-airline'
-  Plug 'vim-airline/vim-airline-themes'
   Plug 'google/vim-jsonnet'
 
 if has("nvim")
@@ -19,6 +17,7 @@ if has("nvim")
   Plug 'nvim-telescope/telescope.nvim'
   Plug 'nvim-telescope/telescope-fzy-native.nvim'
   Plug 'overcache/NeoSolarized'
+  Plug 'hoob3rt/lualine.nvim'
 endif
 
 call plug#end()
