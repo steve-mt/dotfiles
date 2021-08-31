@@ -6,6 +6,8 @@ lua <<EOF
       gopls = {
         analyses = {
           unusedparams = true,
+          unusedwrite = true,
+          shadow = true,
         },
         staticcheck = true,
       },
