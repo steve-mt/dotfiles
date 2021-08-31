@@ -19,6 +19,10 @@ if has("nvim")
   Plug 'overcache/NeoSolarized'
   Plug 'hoob3rt/lualine.nvim'
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+  Plug 'neovim/nvim-lspconfig'
+  Plug 'hrsh7th/nvim-compe'
+  Plug 'hrsh7th/vim-vsnip'
+  Plug 'hrsh7th/vim-vsnip-integ'
 endif
 
 call plug#end()
