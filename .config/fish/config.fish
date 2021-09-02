@@ -50,6 +50,8 @@ abbr -a o orka
 abbr -a aws docker run --rm -it -v ~/.aws:/root/.aws amazon/aws-cli
 abbr -a gcl docker run --rm -it -v ~/.config/gcloud:/root/.config/gcloud -v ~/.ssh:/root/.ssh google/cloud-sdk gcloud
 abbr -a tf terraform
+abbr -a ne lima nerdctl
+abbr -a li limactl
 
 ########################################
 # Git abbreviations
