@@ -42,13 +42,11 @@ set -gx FZF_DEFAULT_COMMAND 'fd --hidden --type f'
 #######################################
 abbr -a ll ls -la
 abbr -a va vagrant
-abbr -a dc docker-compose
-abbr -a d docker
 abbr -a k kubectl
 abbr -a cl clear
 abbr -a o orka
-abbr -a aws docker run --rm -it -v ~/.aws:/root/.aws amazon/aws-cli
-abbr -a gcl docker run --rm -it -v ~/.config/gcloud:/root/.config/gcloud -v ~/.ssh:/root/.ssh google/cloud-sdk gcloud
+abbr -a aws lima nerdctl run --rm -it -v ~/.aws:/root/.aws amazon/aws-cli
+abbr -a gcl lima nerdctl run --rm -it -v ~/.config/gcloud:/root/.config/gcloud -v ~/.ssh:/root/.ssh google/cloud-sdk gcloud
 abbr -a tf terraform
 abbr -a ne lima nerdctl
 abbr -a li limactl
