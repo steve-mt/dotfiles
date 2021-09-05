@@ -48,8 +48,8 @@ abbr -a o orka
 abbr -a aws lima nerdctl run --rm -it -v ~/.aws:/root/.aws amazon/aws-cli
 abbr -a gcl lima nerdctl run --rm -it -v ~/.config/gcloud:/root/.config/gcloud -v ~/.ssh:/root/.ssh google/cloud-sdk gcloud
 abbr -a tf terraform
-abbr -a ne lima nerdctl
-abbr -a li limactl
+abbr -a n lima nerdctl
+abbr -a l limactl
 
 ########################################
 # Git abbreviations
