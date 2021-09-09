@@ -37,6 +37,12 @@ set -gx NNN_OPTS "H"
 # Configure FZF to use fd
 set -gx FZF_DEFAULT_COMMAND 'fd --hidden --type f'
 
+# Source optinal configuration for installed tools
+set gcloud_instllation '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc'
+if test -e $gcloud_instllation
+    source $gcloud_instllation
+end
+
 ########################################
 # General abbreviations
 #######################################
@@ -46,7 +52,7 @@ abbr -a k kubectl
 abbr -a cl clear
 abbr -a o orka
 abbr -a aws lima nerdctl run --rm -it -v ~/.aws:/root/.aws amazon/aws-cli
-abbr -a gcl lima nerdctl run --rm -it -v ~/.config/gcloud:/root/.config/gcloud -v ~/.ssh:/root/.ssh google/cloud-sdk gcloud
+abbr -a gcl gcloud
 abbr -a tf terraform
 abbr -a n lima nerdctl
 abbr -a l limactl
