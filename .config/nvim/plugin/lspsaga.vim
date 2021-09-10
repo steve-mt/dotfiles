@@ -1,4 +1,4 @@
-nnoremap <silent> gd :Lspsaga lsp_finder<CR>
+nnoremap <silent> gr :Lspsaga lsp_finder<CR>
 nnoremap <silent> <leader>k <cmd>lua :Lspsaga signature_help<CR>
 nnoremap <silent> <leader>r :Lspsaga rename<CR>
 nnoremap <silent> <leader>gd :Lspsaga preview_definition<CR>
