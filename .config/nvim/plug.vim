@@ -16,7 +16,7 @@ if has("nvim")
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'nvim-telescope/telescope-fzy-native.nvim'
-    Plug 'overcache/NeoSolarized'
+    Plug 'Iron-E/nvim-soluarized'
     Plug 'hoob3rt/lualine.nvim'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'neovim/nvim-lspconfig'

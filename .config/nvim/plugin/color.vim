@@ -1,3 +1,3 @@
 set termguicolors
-colorscheme NeoSolarized
+colorscheme soluarized
 set background=dark
