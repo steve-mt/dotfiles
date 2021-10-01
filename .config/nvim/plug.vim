@@ -23,9 +23,7 @@ if has("nvim")
     Plug 'hrsh7th/nvim-compe'
     Plug 'hrsh7th/vim-vsnip'
     Plug 'hrsh7th/vim-vsnip-integ'
-    " Plug 'glepnir/lspsaga.nvim'
-    " Temporary fix issue with large screens https://github.com/glepnir/lspsaga.nvim/pull/207
-    Plug 'jasonrhansen/lspsaga.nvim', {'branch': 'finder-preview-fixes'}
+    Plug 'towolf/vim-helm'
 endif
 
 call plug#end()
