@@ -8,8 +8,11 @@ require'lualine'.setup {
   },
   sections = {
     lualine_a = {'mode'},
-    lualine_b = {'branch'},
-    lualine_c = {'filename'},
+    lualine_b = {{
+        'filename',
+        path = 1,
+    }},
+    lualine_c = {},
     lualine_x = {'filetype'},
     lualine_y = {},
     lualine_z = {'location'}
