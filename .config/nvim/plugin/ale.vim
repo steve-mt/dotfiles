@@ -9,5 +9,6 @@ let g:ale_fixers = {
 \   'json': ['jq'],
 \   'terraform': ['terraform'],
 \   'yaml': ['yamlfix'],
+\   'ruby': ['rubocop'],
 \}
 let g:ale_fix_on_save = 1
