@@ -52,7 +52,6 @@ abbr -a k kubectl
 abbr -a kc kubectx
 abbr -a cl clear
 abbr -a o orka
-abbr -a aws lima nerdctl run --rm -it -v ~/.aws:/root/.aws amazon/aws-cli
 abbr -a gcl gcloud
 abbr -a tf terraform
 abbr -a n lima nerdctl
