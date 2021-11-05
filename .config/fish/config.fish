@@ -49,6 +49,7 @@ end
 abbr -a ll ls -la
 abbr -a va vagrant
 abbr -a k kubectl
+abbr -a kc kubectx
 abbr -a cl clear
 abbr -a o orka
 abbr -a aws lima nerdctl run --rm -it -v ~/.aws:/root/.aws amazon/aws-cli
