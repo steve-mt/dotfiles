@@ -10,5 +10,6 @@ let g:ale_fixers = {
 \   'terraform': ['terraform'],
 \   'yaml': ['yamlfix'],
 \   'ruby': ['rubocop'],
+\   'rust': ['rustfmt'],
 \}
 let g:ale_fix_on_save = 1
