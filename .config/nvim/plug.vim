@@ -10,6 +10,7 @@ call plug#begin()
     Plug 'tpope/vim-commentary'
     Plug 'dense-analysis/ale'
     Plug 'google/vim-jsonnet'
+    Plug 'jjo/vim-cue'
 
 if has("nvim")
     Plug 'nvim-lua/popup.nvim'
