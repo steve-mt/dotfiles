@@ -64,7 +64,7 @@ abbr -a g git
 abbr -a ga git add
 abbr -a gaa git add --all
 abbr -a gl 'git log --pretty=format:"%C(yellow)%H | %ad%Cred%d | %Creset%s%Cblue | [%cn] [%ae]" --decorate --date=short'
-abbr -a gc git commit -v
+abbr -a gc git commit -v -s
 abbr -a gch git checkout
 abbr -a gcf git commit -v --fixup
 abbr -a gd git diff
