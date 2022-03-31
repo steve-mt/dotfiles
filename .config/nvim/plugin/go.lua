@@ -1,3 +1,7 @@
-local lspconfig = require "lspconfig"
-
-lspconfig.gopls.setup {}
+require('lspconfig').gopls.setup({
+    settings = {
+        gopls = {
+            gofumpt = true
+        }
+    }
+})
