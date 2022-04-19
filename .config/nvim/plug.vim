@@ -20,13 +20,15 @@ if has("nvim")
     Plug 'Iron-E/nvim-soluarized'
     Plug 'hoob3rt/lualine.nvim'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+    Plug 'towolf/vim-helm'
+
     Plug 'neovim/nvim-lspconfig'
+
     Plug 'hrsh7th/cmp-nvim-lsp'
     Plug 'hrsh7th/cmp-buffer'
     Plug 'hrsh7th/nvim-cmp'
     Plug 'hrsh7th/cmp-vsnip'
     Plug 'hrsh7th/vim-vsnip'
-    Plug 'towolf/vim-helm'
 endif
 
 call plug#end()
