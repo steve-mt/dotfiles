@@ -1,9 +1,26 @@
 require'nvim-treesitter.configs'.setup {
+  ensure_installed = {
+    "bash",
+    "rust",
+    "go",
+    "gomod",
+    "gowork",
+    "make",
+    "yaml",
+    "dockerfile",
+    "hcl",
+    "json",
+    "lua",
+    "toml",
+    "ruby",
+  },
+
   highlight = {
     enable = true,
     custom_captures = {
     },
   },
+
   incremental_selection = {
     enable = true,
     keymaps = {
@@ -13,6 +30,7 @@ require'nvim-treesitter.configs'.setup {
       node_decremental = "grm",
     },
   },
+
   indent = {
     enable = true
   }
