@@ -1,5 +1,8 @@
 source (brew --prefix asdf)/asdf.fish
 
+# Disable greeting message
+set fish_greeting
+
 ########################################
 # General env
 #######################################
