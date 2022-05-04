@@ -3,6 +3,10 @@ source (brew --prefix asdf)/asdf.fish
 # Disable greeting message
 set fish_greeting
 
+# fzf bindings
+# Run `fzf_configure_bindings --help` for more information
+fzf_configure_bindings --directory=\ct
+
 ########################################
 # General env
 #######################################
