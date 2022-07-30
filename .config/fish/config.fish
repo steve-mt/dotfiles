@@ -1,3 +1,4 @@
+eval (/opt/homebrew/bin/brew shellenv)
 source (brew --prefix asdf)/asdf.fish
 
 # Disable greeting message
