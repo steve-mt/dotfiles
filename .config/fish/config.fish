@@ -49,6 +49,7 @@ set -gx FZF_DEFAULT_COMMAND 'fd --hidden --type f'
 set gcloud_instllation '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc'
 if test -e $gcloud_instllation
     source $gcloud_instllation
+    set -gx USE_GKE_GCLOUD_AUTH_PLUGIN true
 end
 
 ########################################
