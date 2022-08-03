@@ -80,7 +80,7 @@ abbr -a gd git diff
 abbr -a gds git diff --staged
 abbr -a gs git status -s
 abbr -a gss git status
-abbr -a gp git push -u
+abbr -a gp git push
 abbr -a gpf git push --force-with-lease
 abbr -a gsw git switch
 abbr -a gr git restore
