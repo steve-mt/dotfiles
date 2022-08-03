@@ -45,12 +45,10 @@ set -gx NNN_OPTS "H"
 # Configure FZF to use fd
 set -gx FZF_DEFAULT_COMMAND 'fd --hidden --type f'
 
-# Source optinal configuration for installed tools
-set gcloud_instllation '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc'
-if test -e $gcloud_instllation
-    source $gcloud_instllation
-    set -gx USE_GKE_GCLOUD_AUTH_PLUGIN true
-end
+# gcloud installation
+set -gx PATH $PATH /opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin
+# https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke
+set -gx USE_GKE_GCLOUD_AUTH_PLUGIN true
 
 ########################################
 # General aliases
