@@ -53,6 +53,11 @@ if test -e $gcloud_instllation
 end
 
 ########################################
+# General aliases
+#######################################
+alias docker="lima nerdctl"
+
+########################################
 # General abbreviations
 #######################################
 abbr -a ll ls -la
