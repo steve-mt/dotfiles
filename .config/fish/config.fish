@@ -50,6 +50,9 @@ set -gx PATH $PATH /opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-s
 # https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke
 set -gx USE_GKE_GCLOUD_AUTH_PLUGIN true
 
+# rancher desktop
+set -gx PATH $PATH $HOME/.rd/bin
+
 ########################################
 # General abbreviations
 #######################################
@@ -61,8 +64,9 @@ abbr -a cl clear
 abbr -a o orka
 abbr -a gcl gcloud
 abbr -a tf terraform
-abbr -a n lima nerdctl
+abbr -a ln lima nerdctl
 abbr -a l limactl
+abbr -a n nerdctl
 
 ########################################
 # Git abbreviations
