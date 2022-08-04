@@ -51,11 +51,6 @@ set -gx PATH $PATH /opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-s
 set -gx USE_GKE_GCLOUD_AUTH_PLUGIN true
 
 ########################################
-# General aliases
-#######################################
-alias docker="lima nerdctl"
-
-########################################
 # General abbreviations
 #######################################
 abbr -a ll ls -la
