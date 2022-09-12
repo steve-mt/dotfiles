@@ -67,6 +67,7 @@ abbr -a tf terraform
 abbr -a ln lima nerdctl
 abbr -a l limactl
 abbr -a n nerdctl
+abbr -a d docker
 
 ########################################
 # Git abbreviations
