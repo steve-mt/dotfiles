@@ -1,4 +1,7 @@
-eval (/opt/homebrew/bin/brew shellenv)
+if test -d /opt/homebrew/bin/brew
+    eval (/opt/homebrew/bin/brew shellenv)
+end
+
 source (brew --prefix asdf)/asdf.fish
 
 # Disable greeting message
