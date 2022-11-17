@@ -56,6 +56,15 @@ set -gx USE_GKE_GCLOUD_AUTH_PLUGIN true
 # rancher desktop
 set -gx PATH $PATH $HOME/.rd/bin
 
+
+########################################
+# GitLab
+#######################################
+if [ $(hostname) = "steve-mbp-gitlab.local" ]
+    set -gx VAULT_ADDR https://vault.ops.gke.gitlab.net
+    set -gx VAULT_PROXY_ADDR socks5://localhost:18200
+end
+
 ########################################
 # General abbreviations
 #######################################
