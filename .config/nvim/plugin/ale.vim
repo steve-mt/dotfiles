@@ -12,4 +12,7 @@ let g:ale_fixers = {
 \   'ruby': ['rubocop'],
 \   'rust': ['rustfmt'],
 \}
+let g:ale_linters = {
+\   'json': ['jq'],
+\}
 let g:ale_fix_on_save = 1
