@@ -11,6 +11,7 @@ let g:ale_fixers = {
 \   'yaml': ['yamlfix'],
 \   'ruby': ['rubocop'],
 \   'rust': ['rustfmt'],
+\   'sh': ['shfmt'],
 \}
 let g:ale_linters = {
 \   'json': ['jq'],
