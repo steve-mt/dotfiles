@@ -2,6 +2,8 @@ if test -e /opt/homebrew/bin/brew
     eval (/opt/homebrew/bin/brew shellenv)
 end
 
+# ASDF installation
+set -gx ASDF_DIR (brew --prefix asdf)/libexec # ASDF gets confused where to find the executable
 source (brew --prefix asdf)/libexec/asdf.fish
 
 # Disable greeting message
