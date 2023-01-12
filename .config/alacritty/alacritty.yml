@@ -86,17 +86,17 @@ font:
   # The normal (roman) font face to use.
   # Style can be specified to pick a specific face.
   normal:
-    family: Fira Code
+    family: JetBrains Mono
     style: Regular
 
   # The bold font face
   bold:
-    family: Fira Code
+    family: JetBrains Mono
     style: Bold
 
   # The italic font face
   italic:
-    family: Fira Code
+    family: JetBrains Mono
     style: Medium Italic
 
   # Point size
