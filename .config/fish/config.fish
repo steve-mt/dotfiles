@@ -58,6 +58,8 @@ set -gx USE_GKE_GCLOUD_AUTH_PLUGIN true
 # rancher desktop
 set -gx PATH $PATH $HOME/.rd/bin
 
+# zoxide installation
+zoxide init fish | source
 
 ########################################
 # GitLab
