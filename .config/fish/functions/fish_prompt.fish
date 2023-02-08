@@ -20,7 +20,7 @@ function fish_prompt
 
   echo -e ""
 
-  echo -n -s ' ' $cwd $normal
+  echo -n -s '' $cwd $normal
 
   if [ (_git_branch_name) ]
     set -l git_branch (_git_branch_name)
