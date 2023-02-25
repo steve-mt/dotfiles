@@ -13,6 +13,7 @@ require'nvim-treesitter.configs'.setup {
     "lua",
     "toml",
     "ruby",
+    "vim",
   },
 
   highlight = {
