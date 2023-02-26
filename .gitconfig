@@ -68,7 +68,7 @@
   process = git-lfs filter-process
   required = true
 [gpg]
-  program = gpg
+  format = ssh
 [init]
   defaultBranch = main
 [includeIf "gitdir:/"]

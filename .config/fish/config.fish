@@ -35,8 +35,8 @@ and not set -q TMUX
     exec tmux
 end
 
-# Make ssh use gpg
-export SSH_AUTH_SOCK=$HOME/.gnupg/S.gpg-agent.ssh
+# Make ssh use yubikey-agent
+set -gx SSH_AUTH_SOCK "$(brew --prefix)/var/run/yubikey-agent.sock"
 
 # Set locale
 set -gx LC_ALL en_US.UTF-8
