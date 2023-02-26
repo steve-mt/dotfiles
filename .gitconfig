@@ -69,6 +69,10 @@
   required = true
 [gpg]
   format = ssh
+[commit]
+  gpgsign = true
+[tag]
+  gpgsign = true
 [init]
   defaultBranch = main
 [includeIf "gitdir:/"]
