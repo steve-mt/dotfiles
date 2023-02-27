@@ -20,6 +20,9 @@ local servers = {
     gopls = {
       gofumpt = true,
       staticcheck = true,
+      env = {
+        GOFLAGS = "-tags=windows,linux"
+      },
     }
   },
   rust_analyzer = {},
