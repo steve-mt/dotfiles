@@ -21,7 +21,7 @@ local servers = {
       gofumpt = true,
       staticcheck = true,
       env = {
-        GOFLAGS = "-tags=windows,linux"
+        GOFLAGS = "-tags=linux"
       },
     }
   },
