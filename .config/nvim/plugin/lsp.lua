@@ -26,6 +26,7 @@ local servers = {
     }
   },
   rust_analyzer = {},
+  terraformls = {},
 
   lua_ls = {
     Lua = {
