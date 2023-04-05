@@ -19,3 +19,4 @@ let g:ale_linters = {
 \}
 let g:ale_fix_on_save = 1
 let ale_sh_shfmt_options='-ci -i 2'
+let ale_terraform_tfsec_options='-m MEDIUM'
