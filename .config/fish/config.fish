@@ -3,8 +3,12 @@ if test -e /opt/homebrew/bin/brew
 end
 
 # ASDF installation
-set -gx ASDF_DIR (brew --prefix asdf)/libexec # ASDF gets confused where to find the executable
-source (brew --prefix asdf)/libexec/asdf.fish
+# set -gx ASDF_DIR (brew --prefix asdf)/libexec # ASDF gets confused where to find the executable
+# source (brew --prefix asdf)/libexec/asdf.fish
+# RTX installation
+if type -q rtx
+    rtx activate fish | source
+end
 
 # Disable greeting message
 set fish_greeting
