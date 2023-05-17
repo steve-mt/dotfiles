@@ -33,6 +33,7 @@ require("lazy").setup({
   "tpope/vim-commentary",
   "dense-analysis/ale",
   "tpope/vim-fugitive",
+  "tpope/vim-surround",
   {
     "nvim-telescope/telescope.nvim", tag = '0.1.1',
     dependencies = { "nvim-lua/plenary.nvim" }
