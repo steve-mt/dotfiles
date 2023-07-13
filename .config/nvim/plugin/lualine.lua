@@ -1,7 +1,7 @@
 require'lualine'.setup {
   options = {
     icons_enabled = false,
-    theme = 'solarized_dark',
+    theme = 'onelight',
     component_separators = {'', ''},
     section_separators = {'', ''},
     disabled_filetypes = {}
