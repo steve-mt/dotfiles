@@ -129,7 +129,7 @@ colors:
     black: '0x24292e'
     red: '0xd73a49'
     green: '0x28a745'
-    yellow: '0x24292e'
+    yellow: '0x6a737d'
     blue: '0x24292e'
     magenta: '0x24292e'
     cyan: '0x24292e'
@@ -144,7 +144,7 @@ colors:
     blue: '0x959da5'
     magenta: '0x959da5'
     cyan: '0x959da5'
-    white: '0x959da5'
+    white: '0xd1d5da'
 
 # Visual Bell
 #
