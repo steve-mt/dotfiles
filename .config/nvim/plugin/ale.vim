@@ -20,4 +20,4 @@ let g:ale_linters = {
 let g:ale_fix_on_save = 1
 let ale_sh_shfmt_options='-ci -i 2'
 let ale_terraform_tfsec_options='-m MEDIUM'
-let ale_markdown_markdownlint_options='--disable MD013 --'
+let ale_markdown_markdownlint_options='--disable MD013 MD033 --'
