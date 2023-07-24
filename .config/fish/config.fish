@@ -84,7 +84,7 @@ abbr -a cl clear
 abbr -a o orka
 abbr -a gcl gcloud
 abbr -a tf terraform
-abbr -a ln lima nerdctl
+abbr -a lin lima nerdctl
 abbr -a l limactl
 abbr -a n nerdctl
 abbr -a d docker
