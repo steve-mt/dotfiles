@@ -131,8 +131,8 @@ colors:
     green: '0x28a745'
     yellow: '0xd1d5da'
     blue: '0x24292e'
-    magenta: '0xd1d5da'
-    cyan: '0xd1d5da'
+    magenta: '0x24292e'
+    cyan: '0x24292e'
     white: '0x6a737d'
 
   # Bright colors
