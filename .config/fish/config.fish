@@ -68,10 +68,8 @@ zoxide init fish | source
 ########################################
 # GitLab
 #######################################
-if [ $(hostname) = "steve-mbp-gitlab.local" ]
-    set -gx VAULT_ADDR https://vault.ops.gke.gitlab.net
-    set -gx VAULT_PROXY_ADDR socks5://localhost:18200
-end
+set -gx VAULT_ADDR https://vault.ops.gke.gitlab.net
+set -gx VAULT_PROXY_ADDR socks5://localhost:18200
 
 ########################################
 # General abbreviations
