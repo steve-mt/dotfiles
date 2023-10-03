@@ -25,7 +25,13 @@ local servers = {
       },
     }
   },
-  rust_analyzer = {},
+  rust_analyzer = {
+    ["rust-analyzer"] = {
+      check = {
+        command = "clippy"
+      }
+    }
+  },
 
   jsonnet_ls= {},
 
