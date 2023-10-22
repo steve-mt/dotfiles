@@ -98,6 +98,14 @@ luasnip.add_snippets("go", {
     text(")"),
   }),
 
+  snippet("fv", {
+    text("fmt.Printf(\""),
+    fn(copy, 1),
+    text(": %#+v\", "),
+    insert(1),
+    text(")"),
+  }),
+
   snippet("tys", {
     text("type "),
     insert(1),
