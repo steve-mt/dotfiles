@@ -48,7 +48,6 @@ require("lazy").setup({
 
   -- Visual
   "hoob3rt/lualine.nvim",
-  "Iron-E/nvim-soluarized",
   "jaredgorski/Mies.vim",
 
   -- Langugage Specific tools
