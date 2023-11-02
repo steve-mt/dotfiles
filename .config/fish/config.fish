@@ -42,12 +42,6 @@ set -gx SSH_AUTH_SOCK "$(brew --prefix)/var/run/yubikey-agent.sock"
 # Set locale
 set -gx LC_ALL en_US.UTF-8
 
-# `nnn` settings
-# Make `nnn` open file with $EDITOR
-set -gx NNN_USE_EDITOR 1
-# Show hidden files
-set -gx NNN_OPTS "H"
-
 # Configure FZF to use fd
 set -gx FZF_DEFAULT_COMMAND 'fd --hidden --type f'
 
@@ -55,9 +49,6 @@ set -gx FZF_DEFAULT_COMMAND 'fd --hidden --type f'
 set -gx PATH $PATH /opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin
 # https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke
 set -gx USE_GKE_GCLOUD_AUTH_PLUGIN true
-
-# rancher desktop
-set -gx PATH $PATH $HOME/.rd/bin
 
 # zoxide installation
 zoxide init fish | source
@@ -76,7 +67,6 @@ abbr -a va vagrant
 abbr -a k kubectl
 abbr -a kc kubectx
 abbr -a cl clear
-abbr -a o orka
 abbr -a gcl gcloud
 abbr -a tf terraform
 abbr -a n lima nerdctl
@@ -102,6 +92,5 @@ abbr -a gp git push
 abbr -a gpf git push --force-with-lease
 abbr -a gsw git switch
 abbr -a gr git restore
-abbr -a bdiff 'git log --pretty=format:"%C(yellow)%H | %ad%Cred%d | %Creset%s%Cblue | [%cn] [%ae]" --abbrev-commit --date=relative'
 abbr -a gcp git cherry-pick
 abbr -a gb git branch
