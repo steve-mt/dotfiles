@@ -1,0 +1,99 @@
+---
+# -----------------------------------------------------------------------------
+# Solarized Light Skin
+# Author: [@leg100](louisgarman@gmail.com)
+# -----------------------------------------------------------------------------
+
+# Styles...
+foreground: &foreground '#657b83'
+background: &background '#ffffff'
+current_line: &current_line '#eee8d5'
+selection: &selection '#eee8d5'
+green: &green '#28a745'
+red: &red '#d73a49'
+
+# Skin...
+k9s:
+  body:
+    fgColor: *foreground
+    bgColor: *background
+    logoColor: *foreground
+  prompt:
+    fgColor: *foreground
+    bgColor: *background
+    suggestColor: *foreground
+  info:
+    fgColor: *red
+    sectionColor: *foreground
+  dialog:
+    fgColor: *foreground
+    bgColor: *background
+    buttonFgColor: *foreground
+    buttonBgColor: *red
+    buttonFocusFgColor: *background
+    buttonFocusBgColor: *foreground
+    labelFgColor: *foreground
+    fieldFgColor: *foreground
+  frame:
+    border:
+      fgColor: *selection
+      focusColor: *foreground
+    menu:
+      fgColor: *foreground
+      keyColor: *red
+      numKeyColor: *red
+    crumbs:
+      fgColor: white
+      bgColor: *foreground
+      activeColor: *foreground
+    status:
+      newColor: *foreground
+      modifyColor: *foreground
+      addColor: *green
+      errorColor: *red
+      highlightColor: *foreground
+      killColor: *foreground
+      completedColor: *foreground
+    title:
+      fgColor: *foreground
+      bgColor: *background
+      highlightColor: *foreground
+      counterColor: *red
+      filterColor: *red
+  views:
+    charts:
+      bgColor: *background
+      defaultDialColors:
+        - *foreground
+        - *red
+      defaultChartColors:
+        - *foreground
+        - *red
+    table:
+      fgColor: *foreground
+      bgColor: *background
+      cursorFgColor: *background
+      cursorBgColor: *foreground
+      markColor: *background
+      header:
+        fgColor: *foreground
+        bgColor: *background
+        sorterColor: *foreground
+    xray:
+      fgColor: *foreground
+      bgColor: *background
+      cursorColor: *current_line
+      graphicColor: *foreground
+      showIcons: false
+    yaml:
+      keyColor: *foreground
+      colonColor: *foreground
+      valueColor: *foreground
+    logs:
+      fgColor: *foreground
+      bgColor: *background
+      indicator:
+        fgColor: *foreground
+        bgColor: *selection
+        toggleOnColor: *foreground
+        toggleOffColor: *foreground
