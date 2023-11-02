@@ -63,7 +63,6 @@ set -gx VAULT_PROXY_ADDR socks5://localhost:18200
 # General abbreviations
 #######################################
 abbr -a ll ls -la
-abbr -a va vagrant
 abbr -a k kubectl
 abbr -a kc kubectx
 abbr -a cl clear
