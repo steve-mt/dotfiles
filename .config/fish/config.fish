@@ -77,7 +77,7 @@ abbr -a v vim
 # Git abbreviations
 ########################################
 abbr -a g git
-abbr -a ga git add
+abbr -a ga git add -p
 abbr -a gaa git add --all
 abbr -a gl 'git log --pretty=format:"%C(yellow)%H | %ad%Cred%d | %Creset%s%Cblue | [%cn] [%ae]" --decorate --date=short'
 abbr -a gc git commit -v -s
