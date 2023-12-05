@@ -70,7 +70,7 @@ bind generic us stage-split-chunk
 
 bind generic c  none
 bind generic cc !git commit -v -s
-bind generic ca !?@git commit --amend -s
+bind generic ca !git commit -v -s --amend
 
 bind generic K view-help
 bind generic <C-w><C-w> view-next
