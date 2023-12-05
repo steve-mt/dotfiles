@@ -75,4 +75,6 @@ bind generic ca !?@git commit --amend -s
 bind generic K view-help
 bind generic <C-w><C-w> view-next
 
+bind generic y !@sh -c "printf '%s' %(commit) | pbcopy"
+
 set main-view-id = yes
