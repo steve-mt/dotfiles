@@ -1,16 +1,16 @@
-local builtin = require('telescope.builtin')
+local builtin = require("telescope.builtin")
 
-vim.keymap.set('n', '<C-p>', builtin.find_files, {})
-vim.keymap.set('n', '<C-F>', builtin.live_grep, {})
-vim.keymap.set('n', '<C-t>', builtin.lsp_document_symbols, {})
-vim.keymap.set('n', '<C-s>', builtin.buffers, {})
+vim.keymap.set("n", "<C-p>", builtin.find_files, {})
+vim.keymap.set("n", "<C-F>", builtin.live_grep, {})
+vim.keymap.set("n", "<C-t>", builtin.lsp_document_symbols, {})
+vim.keymap.set("n", "<C-s>", builtin.buffers, {})
 
-local telescope = require('telescope')
+local telescope = require("telescope")
 
 telescope.setup({
-  pickers = {
-    find_files = {
-      find_command = { "fd", "--hidden" },
-    }
-  }
+	pickers = {
+		find_files = {
+			find_command = { "fd", "--hidden" },
+		},
+	},
 })

@@ -1,1 +1,1 @@
-vim.keymap.set('n', 'fb', ':Git blame<CR>', {})
+vim.keymap.set("n", "fb", ":Git blame<CR>", {})
