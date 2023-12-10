@@ -2,7 +2,7 @@ local lint = require("lint")
 
 lint.linters_by_ft = {
 	markdown = { "vale", "markdownlint" },
-	terraform = { "tflint", "tfsec" },
+	terraform = { "tflint", "trivy" },
 	sh = { "shellcheck" },
 	yaml = { "yamllint" },
 }
@@ -33,3 +33,31 @@ lint.linters.markdownlint.args = {
 	"MD033",
 	"--",
 }
+
+-- Fix tflint parser: https://github.com/mfussenegger/nvim-lint/pull/487
+local tflint_severity_to_diagnostic_severity = {
+	warning = vim.diagnostic.severity.WARN,
+	["error"] = vim.diagnostic.severity.ERROR,
+	notice = vim.diagnostic.severity.INFO,
+}
+lint.linters.tflint.parser = function(output, _, _)
+	vim.print(output)
+	local decoded = vim.json.decode(output) or {}
+	local issues = decoded["issues"] or {}
+	local diagnostics = {}
+
+	for _, issue in ipairs(issues) do
+		if issue.range.filename == "" or issue.range.filename == vim.fn.expand("%") then
+			table.insert(diagnostics, {
+				lnum = assert(tonumber(issue.range.start.line)),
+				end_lnum = assert(tonumber(issue.range["end"].line)),
+				col = assert(tonumber(issue.range.start.column)),
+				end_col = assert(tonumber(issue.range["end"].column)),
+				severity = tflint_severity_to_diagnostic_severity[issue.rule.severity],
+				source = "tflint",
+				message = string.format("%s (%s)\nReference: %s", issue.message, issue.rule.name, issue.rule.link),
+			})
+		end
+	end
+	return diagnostics
+end

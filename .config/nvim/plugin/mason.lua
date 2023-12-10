@@ -23,5 +23,6 @@ mason_tool_installer.setup({
 		"shellcheck",
 		"markdownlint",
 		"vale",
+		"trivy",
 	},
 })
