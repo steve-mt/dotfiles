@@ -18,7 +18,6 @@ mason_tool_installer.setup({
 
 		-- Linters
 		"tflint",
-		"tfsec",
 		"yamllint",
 		"shellcheck",
 		"markdownlint",
