@@ -40,14 +40,14 @@ local tflint_severity_to_diagnostic_severity = {
 	["error"] = vim.diagnostic.severity.ERROR,
 	notice = vim.diagnostic.severity.INFO,
 }
-lint.linters.tflint.parser = function(output, _, _)
-	vim.print(output)
+lint.linters.tflint.parser = function(output, bufnr)
 	local decoded = vim.json.decode(output) or {}
 	local issues = decoded["issues"] or {}
 	local diagnostics = {}
+	local buf_path = vim.fn.fnamemodify(vim.api.nvim_buf_get_name(bufnr), ":.")
 
 	for _, issue in ipairs(issues) do
-		if issue.range.filename == "" or issue.range.filename == vim.fn.expand("%") then
+		if issue.range.filename == "" or issue.range.filename == buf_path then
 			table.insert(diagnostics, {
 				lnum = assert(tonumber(issue.range.start.line)),
 				end_lnum = assert(tonumber(issue.range["end"].line)),
