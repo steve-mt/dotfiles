@@ -19,6 +19,7 @@ return {
 					"rubocop", -- System installed ruby fails to install this.
 					"yamlfix",
 					"shfmt",
+					"prettier",
 
 					-- Linters
 					"tflint",

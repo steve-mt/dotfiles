@@ -19,6 +19,7 @@ return {
 					yaml = { "yamlfix" },
 					sh = { "shfmt" },
 					terraform = { "terraform_fmt" },
+					javascript = { "prettier" },
 				},
 				format_on_save = {
 					lsp_fallback = true,
