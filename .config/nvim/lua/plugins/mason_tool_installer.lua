@@ -11,6 +11,7 @@ return {
 					"rust_analyzer",
 					"jsonnet_ls",
 					"lua_ls",
+					"tsserver",
 
 					-- Formatters
 					"stylua",
