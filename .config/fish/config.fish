@@ -2,9 +2,9 @@ if test -e /opt/homebrew/bin/brew
     eval (/opt/homebrew/bin/brew shellenv)
 end
 
-# RTX installation
-if type -q rtx
-    rtx activate fish | source
+# mise installation
+if type -q mise
+    mise activate fish | source
 end
 
 # Disable greeting message
