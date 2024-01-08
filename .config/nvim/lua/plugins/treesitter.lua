@@ -22,6 +22,7 @@ return {
 						"ruby",
 						"vim",
 						"jsonnet",
+						"javascript",
 					},
 
 					highlight = {
