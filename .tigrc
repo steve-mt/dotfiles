@@ -77,4 +77,6 @@ bind generic <C-w><C-w> view-next
 
 bind generic y !@sh -c "printf '%s' %(commit) | pbcopy"
 
+bind status D !rm %(file)
+
 set main-view-id = yes
