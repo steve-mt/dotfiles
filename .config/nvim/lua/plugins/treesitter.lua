@@ -23,6 +23,7 @@ return {
 						"vim",
 						"jsonnet",
 						"javascript",
+						"terraform",
 					},
 
 					highlight = {
