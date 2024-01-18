@@ -75,5 +75,7 @@
   gpgsign = true
 [init]
   defaultBranch = main
+[credential]
+  helper =
 [includeIf "gitdir:/"]
   path = ~/.gitconfig-mbp
