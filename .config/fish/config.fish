@@ -33,7 +33,7 @@ set -gx EDITOR $VISUAL
 # Start tmux when not set
 if status is-interactive
 and not set -q TMUX
-    exec tmux
+    exec tmux new-session -n ""
 end
 
 # Make ssh use yubikey-agent
