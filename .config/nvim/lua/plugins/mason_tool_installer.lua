@@ -29,6 +29,7 @@ return {
 					"markdownlint",
 					"vale",
 					"trivy",
+					"misspell",
 				},
 			})
 		end,
