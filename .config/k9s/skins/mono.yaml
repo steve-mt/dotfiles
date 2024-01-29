@@ -1,18 +1,10 @@
 ---
-# -----------------------------------------------------------------------------
-# Solarized Light Skin
-# Author: [@leg100](louisgarman@gmail.com)
-# -----------------------------------------------------------------------------
-
-# Styles...
-foreground: &foreground '#657b83'
-background: &background '#ffffff'
-current_line: &current_line '#eee8d5'
-selection: &selection '#eee8d5'
-green: &green '#28a745'
-red: &red '#d73a49'
-
-# Skin...
+foreground: &foreground "#657b83"
+background: &background "#ffffff"
+current_line: &current_line "#eee8d5"
+selection: &selection "#eee8d5"
+green: &green "#28a745"
+red: &red "#d73a49"
 k9s:
   body:
     fgColor: *foreground
@@ -63,12 +55,8 @@ k9s:
   views:
     charts:
       bgColor: *background
-      defaultDialColors:
-        - *foreground
-        - *red
-      defaultChartColors:
-        - *foreground
-        - *red
+      defaultDialColors: [*foreground, *red]
+      defaultChartColors: [*foreground, *red]
     table:
       fgColor: *foreground
       bgColor: *background
