@@ -36,6 +36,7 @@ return {
 						extra_args = { "--disable", "MD013", "MD033" },
 					}),
 					null_ls.builtins.diagnostics.misspell,
+					null_ls.builtins.diagnostics.vale,
 				},
 				on_attach = function(client, bufnr) -- fmt on save https://github.com/nvimtools/none-ls.nvim/wiki/Formatting-on-save
 					if client.supports_method("textDocument/formatting") then
