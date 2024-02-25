@@ -21,6 +21,7 @@ return {
 					"yamlfix",
 					"shfmt",
 					"prettier",
+					"nixpkgs-fmt",
 
 					-- Linters
 					"tflint",

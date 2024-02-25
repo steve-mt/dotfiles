@@ -26,6 +26,7 @@ return {
 					null_ls.builtins.formatting.prettier,
 					null_ls.builtins.formatting.markdownlint,
 					null_ls.builtins.formatting.jsonnetfmt,
+					null_ls.builtins.formatting.nixpkgs_fmt,
 
 					-- Linters
 					null_ls.builtins.diagnostics.trivy,
