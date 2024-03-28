@@ -30,7 +30,7 @@ return {
 					"markdownlint",
 					"vale",
 					"trivy",
-					"misspell",
+					"codespell",
 				},
 			})
 		end,

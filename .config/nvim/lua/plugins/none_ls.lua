@@ -25,6 +25,7 @@ return {
 					null_ls.builtins.formatting.markdownlint,
 					null_ls.builtins.formatting.jsonnetfmt,
 					null_ls.builtins.formatting.nixpkgs_fmt,
+					null_ls.builtins.formatting.codespell,
 
 					-- Linters
 					null_ls.builtins.diagnostics.trivy,
@@ -34,7 +35,7 @@ return {
 					null_ls.builtins.diagnostics.markdownlint.with({
 						extra_args = { "--disable", "MD013", "MD033" },
 					}),
-					null_ls.builtins.diagnostics.misspell,
+					null_ls.builtins.diagnostics.codespell,
 					null_ls.builtins.diagnostics.vale,
 				},
 				on_attach = function(client, bufnr) -- fmt on save https://github.com/nvimtools/none-ls.nvim/wiki/Formatting-on-save
