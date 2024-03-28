@@ -16,6 +16,7 @@
   "nvim-treesitter": { "branch": "master", "commit": "1c3fb9eac2a04230e4af23715fa2c190cbeacd70" },
   "plenary.nvim": { "branch": "master", "commit": "8aad4396840be7fc42896e3011751b7609ca4119" },
   "telescope.nvim": { "branch": "master", "commit": "c2b8311dfacd08b3056b8f0249025d633a4e71a8" },
+  "trim.nvim": { "branch": "master", "commit": "4fe47a46c02a58894ded8328ca81f6c214a892f5" },
   "vim-commentary": { "branch": "master", "commit": "f67e3e67ea516755005e6cccb178bc8439c6d402" },
   "vim-fugitive": { "branch": "master", "commit": "193ba9b393931bad768c1d2eed688b0bcc240858" },
   "vim-sleuth": { "branch": "master", "commit": "1cc4557420f215d02c4d2645a748a816c220e99b" },
