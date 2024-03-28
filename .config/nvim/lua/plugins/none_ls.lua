@@ -23,7 +23,6 @@ return {
 					null_ls.builtins.formatting.terraform_fmt,
 					null_ls.builtins.formatting.prettier,
 					null_ls.builtins.formatting.markdownlint,
-					null_ls.builtins.formatting.jsonnetfmt,
 					null_ls.builtins.formatting.nixpkgs_fmt,
 					null_ls.builtins.formatting.codespell,
 
