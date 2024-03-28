@@ -53,6 +53,8 @@ return {
 					},
 
 					tsserver = {},
+
+					bashls = {},
 				}
 
 				-- nvim-cmp supports additional completion capabilities, so broadcast that to servers

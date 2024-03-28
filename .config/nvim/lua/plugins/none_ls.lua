@@ -30,7 +30,6 @@ return {
 					-- Linters
 					null_ls.builtins.diagnostics.trivy,
 					null_ls.builtins.diagnostics.terraform_validate,
-					null_ls.builtins.diagnostics.shellcheck,
 					null_ls.builtins.diagnostics.yamllint,
 					null_ls.builtins.diagnostics.markdownlint.with({
 						extra_args = { "--disable", "MD013", "MD033" },

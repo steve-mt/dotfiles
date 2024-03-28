@@ -12,6 +12,7 @@ return {
 					"jsonnet_ls",
 					"lua_ls",
 					"tsserver",
+					"bashls",
 
 					-- Formatters
 					"stylua",
