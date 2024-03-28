@@ -1,9 +1,6 @@
 return {
 	{
 		"nvimtools/none-ls.nvim",
-		dependencies = {
-			"nvimtools/none-ls-extras.nvim",
-		},
 		event = {
 			"BufReadPre",
 			"BufNewFile",
@@ -24,7 +21,6 @@ return {
 					null_ls.builtins.formatting.markdownlint,
 					null_ls.builtins.formatting.nixpkgs_fmt,
 					null_ls.builtins.formatting.codespell,
-					require("none-ls.formatting.jq"),
 
 					-- Linters
 					null_ls.builtins.diagnostics.trivy,
