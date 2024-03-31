@@ -81,3 +81,5 @@
   sort = -committerdate
 [includeIf "gitdir:/"]
   path = ~/.gitconfig-mbp
+[rebase]
+  updateRefs = true
