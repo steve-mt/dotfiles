@@ -1,3 +1,4 @@
 explicit_start = false
 sequence_style = 'block_style'
 line_length = 200
+whitelines = 1
