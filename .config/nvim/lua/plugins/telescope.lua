@@ -16,6 +16,9 @@ return {
 					find_files = {
 						find_command = { "fd", "--hidden" },
 					},
+					live_grep = {
+						additional_args = { "--hidden" },
+					},
 				},
 			})
 		end,
