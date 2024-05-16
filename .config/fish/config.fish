@@ -11,6 +11,11 @@ if type -q mise
     mise activate fish | source
 end
 
+# direnv shell update
+if type -q direnv
+    direnv hook fish | source
+end
+
 # Disable greeting message
 set fish_greeting
 
