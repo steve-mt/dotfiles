@@ -14,6 +14,7 @@ return {
 					-- Formatters
 					null_ls.builtins.formatting.stylua,
 					null_ls.builtins.formatting.gofumpt,
+					null_ls.builtins.formatting.goimports,
 					null_ls.builtins.formatting.rubocop,
 					null_ls.builtins.formatting.yamlfix.with({
 						extra_args = { "-c", "~/.config/yamlfix/config.toml" },
