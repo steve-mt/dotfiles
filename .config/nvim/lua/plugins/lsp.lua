@@ -30,9 +30,6 @@ return {
 						gopls = {
 							gofumpt = true,
 							staticcheck = true,
-							env = {
-								GOFLAGS = "-tags=linux",
-							},
 						},
 					},
 					rust_analyzer = {
