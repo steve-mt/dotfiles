@@ -46,7 +46,7 @@ and not set -q TMUX
 end
 
 # Make ssh use yubikey-agent
-set -gx SSH_AUTH_SOCK "$(brew --prefix)/var/run/yubikey-agent.sock"
+set -gx SSH_AUTH_SOCK "/opt/homebrew/var/run/yubikey-agent.sock"
 
 # Set locale
 set -gx LC_ALL en_US.UTF-8
