@@ -65,6 +65,9 @@ zoxide init fish | source
 # Set configuration to be all in 1 place
 set -gx XDG_CONFIG_HOME $HOME/.config
 
+# Disable pre-commit color
+set -gx PRE_COMMIT_COLOR never
+
 ########################################
 # GitLab
 #######################################
