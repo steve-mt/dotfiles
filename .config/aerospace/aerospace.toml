@@ -79,7 +79,7 @@ outer.right =      0
 # alt-enter = 'exec-and-forget open -n /System/Applications/Utilities/Terminal.app'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#layout
-alt-slash = 'layout tiles horizontal vertical'
+alt-space = 'layout tiles horizontal vertical'
 alt-comma = 'layout accordion horizontal vertical'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#focus
@@ -116,10 +116,8 @@ alt-shift-semicolon = 'mode service'
 alt-shift-r = 'mode resize'
 
 [mode.resize.binding]
-h = 'resize width -50'
-j = 'resize height +50'
-k = 'resize height -50'
-l = 'resize width +50'
+minus = 'resize smart -50'
+equal = 'resize smart +50'
 b = 'balance-sizes'
 
 enter = 'mode main'
