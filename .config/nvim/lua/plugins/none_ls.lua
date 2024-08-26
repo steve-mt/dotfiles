@@ -12,18 +12,18 @@ return {
 			null_ls.setup({
 				sources = {
 					-- Formatters
+					null_ls.builtins.formatting.prettier,
 					null_ls.builtins.formatting.stylua,
 					null_ls.builtins.formatting.gofumpt,
 					null_ls.builtins.formatting.goimports,
 					null_ls.builtins.formatting.rubocop,
-					null_ls.builtins.formatting.yamlfix.with({
-						extra_args = { "-c", "~/.config/yamlfix/config.toml" },
-					}),
 					null_ls.builtins.formatting.terraform_fmt,
-					null_ls.builtins.formatting.prettier,
 					null_ls.builtins.formatting.markdownlint,
 					null_ls.builtins.formatting.nixpkgs_fmt,
 					null_ls.builtins.formatting.codespell,
+					null_ls.builtins.formatting.yamlfix.with({
+						extra_args = { "-c", "~/.config/yamlfix/config.toml" },
+					}),
 
 					-- Linters
 					null_ls.builtins.diagnostics.trivy,
