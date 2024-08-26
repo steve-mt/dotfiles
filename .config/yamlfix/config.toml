@@ -2,3 +2,5 @@ explicit_start = false
 sequence_style = 'block_style'
 line_length = 200
 whitelines = 1
+comments_min_spaces_from_content = 2
+comments_require_starting_space = true
