@@ -1,0 +1,22 @@
+gui:
+  # Config relating to colors and styles.
+  # See https://github.com/jesseduffield/lazygit/blob/master/docs/Config.md#color-attributes
+  theme:
+    activeBorderColor:
+      - black
+      - bold
+    inactiveBorderColor:
+      - default
+    searchingActiveBorderColor:
+      - cyan
+      - bold
+    optionsTextColor:
+      - blue
+    selectedLineBgColor:
+      - white
+git:
+  autoFetch: false
+keybinding:
+  files:
+    commitChanges: C
+    commitChangesWithEditor: c
