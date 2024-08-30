@@ -96,9 +96,9 @@ abbr -a g git
 abbr -a ga git add -p
 abbr -a gaa git add --all
 abbr -a gl 'git log --pretty=format:"%C(yellow)%H | %ad%Cred%d | %Creset%s%Cblue | [%cn] [%ae]" --decorate --date=short'
-abbr -a gc git commit -v
+abbr -a gc git commit
 abbr -a gch git checkout
-abbr -a gcf git commit -v --fixup
+abbr -a gcf git commit --fixup
 abbr -a gd git diff
 abbr -a gds git diff --staged
 abbr -a gs git status -s
@@ -109,7 +109,6 @@ abbr -a gsw git switch
 abbr -a gr git restore
 abbr -a gcp git cherry-pick
 abbr -a gb git branch
-
 
 ########################################
 # Colorscheme: Mono Lace
