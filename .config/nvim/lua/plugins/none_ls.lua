@@ -24,6 +24,7 @@ return {
 					null_ls.builtins.formatting.yamlfix.with({
 						extra_args = { "-c", "~/.config/yamlfix/config.toml" },
 					}),
+					null_ls.builtins.formatting.buf,
 
 					-- Linters
 					null_ls.builtins.diagnostics.trivy,
@@ -34,6 +35,7 @@ return {
 					}),
 					null_ls.builtins.diagnostics.codespell,
 					null_ls.builtins.diagnostics.vale,
+					null_ls.builtins.formatting.protolint,
 				},
 				on_attach = function(client, bufnr) -- fmt on save https://github.com/nvimtools/none-ls.nvim/wiki/Formatting-on-save
 					if client.supports_method("textDocument/formatting") then

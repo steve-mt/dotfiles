@@ -23,6 +23,7 @@ return {
 					"shfmt",
 					"prettier",
 					"nixpkgs-fmt",
+					"buf",
 
 					-- Linters
 					"tflint",
@@ -32,6 +33,7 @@ return {
 					"vale",
 					"trivy",
 					"codespell",
+					"protolint",
 				},
 			})
 		end,
