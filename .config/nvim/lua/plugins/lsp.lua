@@ -52,6 +52,8 @@ return {
 					tsserver = {},
 
 					bashls = {},
+
+					terraformls = {},
 				}
 
 				-- nvim-cmp supports additional completion capabilities, so broadcast that to servers

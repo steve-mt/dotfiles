@@ -13,6 +13,7 @@ return {
 					"lua_ls",
 					"tsserver",
 					"bashls",
+					"terraformls",
 
 					-- Formatters
 					"stylua",
