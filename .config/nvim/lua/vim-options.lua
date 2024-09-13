@@ -35,3 +35,6 @@ vim.o.timeoutlen = 300
 -- Mappings
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>n", vim.cmd.Ex)
+
+-- Set curor to blink when in insert mode.
+vim.opt.guicursor = "i-ci:ver30-iCursor-blinkwait300-blinkon200-blinkoff200"
