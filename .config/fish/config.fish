@@ -68,6 +68,11 @@ set -gx XDG_CONFIG_HOME $HOME/.config
 # Disable pre-commit color
 set -gx PRE_COMMIT_COLOR never
 
+# Rancher Desktop
+if test -d $HOME/.rd/bin
+  set -gx PATH $PATH $HOME/.rd/bin
+end
+
 ########################################
 # GitLab
 #######################################
