@@ -68,6 +68,9 @@ set -gx XDG_CONFIG_HOME $HOME/.config
 # Disable pre-commit color
 set -gx PRE_COMMIT_COLOR never
 
+# No Color https://no-color.org/
+set -gx NO_COLOR 1
+
 # Rancher Desktop
 if test -d $HOME/.rd/bin
   set -gx PATH $PATH $HOME/.rd/bin
