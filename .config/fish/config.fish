@@ -71,6 +71,9 @@ set -gx PRE_COMMIT_COLOR never
 # No Color https://no-color.org/
 set -gx NO_COLOR 1
 
+# 1password plugins
+source /Users/steve/.config/op/plugins.sh
+
 ########################################
 # GitLab
 #######################################
