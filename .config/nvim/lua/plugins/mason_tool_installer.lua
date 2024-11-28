@@ -34,7 +34,6 @@ return {
 					"vale",
 					"trivy",
 					"codespell",
-					"protolint",
 				},
 			})
 		end,
