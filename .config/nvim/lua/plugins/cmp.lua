@@ -149,6 +149,26 @@ return {
 					text({ "", "}" }),
 				}),
 			})
+
+			luasnip.add_snippets("typescript", {
+				snippet("cl", {
+					text("console.log('"),
+					fn(copy, 1),
+					text("', "),
+					insert(1),
+					text(")"),
+				}),
+			})
+
+			luasnip.add_snippets("javascript", {
+				snippet("cl", {
+					text("console.log('"),
+					fn(copy, 1),
+					text("', "),
+					insert(1),
+					text(")"),
+				}),
+			})
 		end,
 	},
 }
