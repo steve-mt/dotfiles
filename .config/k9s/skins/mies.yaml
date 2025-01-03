@@ -1,0 +1,93 @@
+# Mies Light Theme for K9s
+k9s:
+  # General theme base colors
+  body:
+    fgColor: '#080808'  # chicagoBlack1 - main text
+    bgColor: '#ffffff'  # white - main background
+    logoColor: '#767676'  # chicagoGray3 - subtle accent
+
+  # Prompt and input
+  prompt:
+    fgColor: '#080808'  # chicagoBlack1 - text
+    bgColor: '#b0b0b0'  # chicagoGray5 - background
+    suggestColor: '#767676'  # chicagoGray3 - suggestions
+
+  # Information views
+  info:
+    fgColor: '#767676'  # chicagoGray3 - standard info
+    sectionColor: '#080808'  # chicagoBlack1 - section headers
+
+  # Menu and views
+  frame:
+    # Title
+    title:
+      fgColor: '#080808'  # chicagoBlack1 - title text
+      bgColor: '#ffffff'  # white - title background
+      highlightColor: '#b0b0b0'  # chicagoGray5 - highlighted title
+      counterColor: '#767676'  # chicagoGray3 - counters
+      filterColor: '#5f8787'  # chicagoBlue - filter indicator
+
+    # Menu
+    menu:
+      fgColor: '#767676'  # chicagoGray3 - menu text
+      keyColor: '#080808'  # chicagoBlack1 - keyboard shortcuts
+      numKeyColor: '#767676'  # chicagoGray3 - numbered shortcuts
+
+    # Crumbs
+    crumbs:
+      fgColor: '#080808'  # chicagoBlack1 - text
+      bgColor: '#b0b0b0'  # chicagoGray5 - background
+      activeColor: '#767676'  # chicagoGray3 - active crumb
+
+    # Status
+    status:
+      newColor: '#767676'  # chicagoGray3 - new items (was green)
+      modifyColor: '#8e700b'  # chicagoGold1 - modified items
+      addColor: '#5f8787'  # chicagoBlue - added items (was green)
+      errorColor: '#d70000'  # chicagoRed - errors
+      highlightColor: '#b0b0b0'  # chicagoGray5 - highlights
+      killColor: '#d70000'  # chicagoRed - kill indicators
+      completedColor: '#767676'  # chicagoGray3 - completed items
+
+    # Border
+    border:
+      fgColor: '#b0b0b0'  # chicagoGray5 - border color
+      focusColor: '#767676'  # chicagoGray3 - focused border
+
+  # Views
+  views:
+    # Charts
+    charts:
+      bgColor: '#ffffff'  # white - chart background
+      defaultDialColors:
+        - '#5f8787'  # chicagoBlue (was green)
+        - '#d70000'  # chicagoRed
+      defaultChartColors:
+        - '#5f8787'  # chicagoBlue (was green)
+        - '#8e700b'  # chicagoGold1
+        - '#d70000'  # chicagoRed
+
+    # Table
+    table:
+      fgColor: '#080808'  # chicagoBlack1 - text
+      bgColor: '#ffffff'  # white - background
+      cursorColor: '#b0b0b0'  # chicagoGray5 - cursor line
+      markColor: '#767676'  # chicagoGray3 - marked line
+      header:
+        fgColor: '#080808'  # chicagoBlack1 - header text
+        bgColor: '#ffffff'  # white - header background
+        sorterColor: '#767676'  # chicagoGray3 - sort indicator
+
+    # YAML
+    yaml:
+      keyColor: '#080808'  # chicagoBlack1 - keys
+      colonColor: '#767676'  # chicagoGray3 - colons
+      valueColor: '#767676'  # chicagoGray3 - values
+
+    # Logs
+    logs:
+      fgColor: '#080808'  # chicagoBlack1 - standard logs
+      bgColor: '#ffffff'  # white - background
+      indicator:
+        fgColor: '#767676'  # chicagoGray3 - indicator
+        bgColor: '#ffffff'  # white - indicator background
