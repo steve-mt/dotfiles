@@ -1,0 +1,55 @@
+quit-after-last-window-closed = true
+#####################
+#      Appearance   #
+#####################
+window-decoration = false
+adjust-cell-height = 20%
+window-padding-x = 10
+window-padding-y = 5
+unfocused-split-opacity = 1
+mouse-hide-while-typing = true
+#####################
+#      Theme        #
+#####################
+# Mies Light theme for Ghostty
+# Based on https://github.com/jaredgorski/Mies.vim
+
+# Basic colors
+background = ffffff
+foreground = 080808
+cursor-color = 1c1c1c
+selection-background = b0b0b0
+selection-foreground = 080808
+
+# Color palette
+# Black (using chicagoBlack variants)
+palette = 0=#080808
+palette = 8=#1c1c1c
+
+# Red (using chicagoRed)
+palette = 1=#d70000
+palette = 9=#ff0000
+
+# Green (using chicagoGreen variants)
+palette = 2=#008700
+palette = 10=#00af5f
+
+# Yellow/Gold (using chicagoGold variants)
+palette = 3=#8e700b
+palette = 11=#d7af00
+
+# Blue (using chicagoBlue)
+palette = 4=#5f8787
+palette = 12=#87afaf
+
+# Magenta (deriving from theme colors)
+palette = 5=#875f5f
+palette = 13=#af8787
+
+# Cyan (variation of chicagoBlue)
+palette = 6=#5f8787
+palette = 14=#87afaf
+
+# White (using chicagoGray variants)
+palette = 7=#767676
+palette = 15=#c6c6c6
