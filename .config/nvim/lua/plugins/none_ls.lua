@@ -20,7 +20,9 @@ return {
 					null_ls.builtins.formatting.terraform_fmt,
 					null_ls.builtins.formatting.markdownlint,
 					null_ls.builtins.formatting.nixpkgs_fmt,
-					null_ls.builtins.formatting.codespell,
+					null_ls.builtins.formatting.codespell.with({
+						extra_args = { "-I", "~/.codespell-ignore" },
+					}),
 					null_ls.builtins.formatting.yamlfix.with({
 						extra_args = { "-c", "~/.config/yamlfix/config.toml" },
 					}),
@@ -33,7 +35,9 @@ return {
 					null_ls.builtins.diagnostics.markdownlint.with({
 						extra_args = { "--disable", "MD013", "MD033" },
 					}),
-					null_ls.builtins.diagnostics.codespell,
+					null_ls.builtins.diagnostics.codespell.with({
+						extra_args = { "-I", "~/.codespell-ignore" },
+					}),
 					null_ls.builtins.diagnostics.vale,
 				},
 				on_attach = function(client, bufnr) -- fmt on save https://github.com/nvimtools/none-ls.nvim/wiki/Formatting-on-save
