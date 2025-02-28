@@ -51,7 +51,13 @@ return {
 
 					tsserver = {},
 
-					bashls = {},
+					bashls = {
+						bashIde = {
+							shfmt = {
+								path = "", -- Use none ls instead since we have more control on settings.
+							},
+						},
+					},
 
 					terraformls = {},
 				}
