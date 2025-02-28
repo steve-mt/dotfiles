@@ -27,6 +27,9 @@ return {
 						extra_args = { "-c", "~/.config/yamlfix/config.toml" },
 					}),
 					null_ls.builtins.formatting.buf,
+					null_ls.builtins.formatting.shfmt.with({
+						extra_args = { "-i", "2" },
+					}),
 
 					-- Linters
 					null_ls.builtins.diagnostics.trivy,
