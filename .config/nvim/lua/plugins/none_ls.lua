@@ -28,7 +28,7 @@ return {
 					}),
 					null_ls.builtins.formatting.buf,
 					null_ls.builtins.formatting.shfmt.with({
-						extra_args = { "-i", "2" },
+						extra_args = { "-i", "2", "-s" },
 					}),
 
 					-- Linters
