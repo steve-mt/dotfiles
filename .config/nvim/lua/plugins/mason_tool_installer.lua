@@ -34,6 +34,7 @@ return {
 					"vale",
 					"trivy",
 					"codespell",
+					"golangci-lint",
 				},
 			})
 		end,

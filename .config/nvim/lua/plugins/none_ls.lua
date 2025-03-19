@@ -42,6 +42,7 @@ return {
 						extra_args = { "-I", "~/.codespell-ignore" },
 					}),
 					null_ls.builtins.diagnostics.vale,
+					null_ls.builtins.diagnostics.golangci_lint,
 				},
 				on_attach = function(client, bufnr) -- fmt on save https://github.com/nvimtools/none-ls.nvim/wiki/Formatting-on-save
 					if client.supports_method("textDocument/formatting") then
