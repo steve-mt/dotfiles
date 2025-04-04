@@ -11,17 +11,23 @@ return {
 				require("mason").setup()
 
 				-- Key bindings
+				-- Override default bindings https://gpanders.com/blog/whats-new-in-neovim-0-11/#more-default-mappings
 				local builtin = require("telescope.builtin")
-				vim.keymap.set("n", "gr", builtin.lsp_references, {})
-				vim.keymap.set("n", "gd", builtin.lsp_definitions, {})
-				vim.keymap.set("n", "gi", builtin.lsp_implementations, {})
-				vim.keymap.set("n", "<C-t>", builtin.lsp_document_symbols, {})
-
-				vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
-				vim.keymap.set("n", "<leader>k", vim.lsp.buf.signature_help, {})
-				vim.keymap.set("n", "ge", vim.lsp.buf.rename, {})
-				vim.keymap.set("n", "<C-n>", vim.diagnostic.goto_next, {})
-				vim.keymap.set("n", "<C-N>", vim.diagnostic.goto_prev, {})
+				vim.keymap.set("n", "grr", builtin.lsp_references, {})
+				vim.keymap.set("n", "gri", builtin.lsp_implementations, {})
+				vim.keymap.set("n", "g0", builtin.lsp_document_symbols, {})
+				vim.keymap.set("n", "grd", builtin.lsp_definitions, {})
+				vim.keymap.set("n", "grn", vim.lsp.buf.rename, {})
+				vim.keymap.set("n", "gn", function()
+					vim.diagnostic.jump({
+						count = 1,
+					})
+				end, {})
+				vim.keymap.set("n", "gp", function()
+					vim.diagnostic.jump({
+						count = -1,
+					})
+				end, {})
 
 				-- Server configurations
 				local servers = {
@@ -61,12 +67,12 @@ return {
 					terraformls = {},
 				}
 
+				-- Set up blink
 				local capabilities = vim.lsp.protocol.make_client_capabilities()
 				capabilities = require("blink.cmp").get_lsp_capabilities(capabilities)
 
-				-- mason configuration
+				-- Mason lsp configuration
 				local mason_lspconfig = require("mason-lspconfig")
-
 				mason_lspconfig.setup_handlers({
 					function(server_name)
 						require("lspconfig")[server_name].setup({
