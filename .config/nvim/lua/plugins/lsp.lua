@@ -5,11 +5,9 @@ return {
 			dependencies = {
 				"williamboman/mason.nvim",
 				"williamboman/mason-lspconfig.nvim",
-				"folke/neodev.nvim",
 				"saghen/blink.cmp",
 			},
 			config = function()
-				require("neodev").setup()
 				require("mason").setup()
 
 				-- Key bindings
