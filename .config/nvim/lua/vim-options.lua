@@ -41,3 +41,9 @@ vim.opt.guicursor = "i-ci:ver30-iCursor-blinkwait300-blinkon200-blinkoff200"
 
 -- Virtual Text
 vim.diagnostic.config({ virtual_text = true })
+
+-- Don't show the mode, since it's already in the status line
+vim.opt.showmode = false
+
+-- Save undo history
+vim.opt.undofile = true
