@@ -52,7 +52,7 @@ return {
 				},
 			},
 
-			tsserver = {},
+			ts_ls = {},
 
 			bashls = {
 				bashIde = {
@@ -69,15 +69,11 @@ return {
 		local capabilities = vim.lsp.protocol.make_client_capabilities()
 		capabilities = require("blink.cmp").get_lsp_capabilities(capabilities)
 
-		-- Mason lsp configuration
-		local mason_lspconfig = require("mason-lspconfig")
-		mason_lspconfig.setup_handlers({
-			function(server_name)
-				require("lspconfig")[server_name].setup({
-					capabilities = capabilities,
-					settings = servers[server_name],
-				})
-			end,
-		})
+		for server_name, settings in pairs(servers) do
+			require("lspconfig")[server_name].setup({
+				capabilities = capabilities,
+				settings = settings,
+			})
+		end
 	end,
 }
