@@ -17,6 +17,7 @@ return {
 				null_ls.builtins.formatting.goimports,
 				null_ls.builtins.formatting.rubocop,
 				null_ls.builtins.formatting.terraform_fmt,
+				null_ls.builtins.formatting.opentofu_fmt,
 				null_ls.builtins.formatting.markdownlint,
 				null_ls.builtins.formatting.nixpkgs_fmt,
 				null_ls.builtins.formatting.codespell.with({
@@ -33,6 +34,7 @@ return {
 				-- Linters
 				null_ls.builtins.diagnostics.trivy,
 				null_ls.builtins.diagnostics.terraform_validate,
+				null_ls.builtins.diagnostics.opentofu_validate,
 				null_ls.builtins.diagnostics.yamllint,
 				null_ls.builtins.diagnostics.markdownlint.with({
 					extra_args = { "--disable", "MD013", "MD033" },
