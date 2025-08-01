@@ -30,6 +30,7 @@ return {
 				null_ls.builtins.formatting.shfmt.with({
 					extra_args = { "-i", "2", "-s" },
 				}),
+				null_ls.builtins.formatting.hclfmt,
 
 				-- Linters
 				null_ls.builtins.diagnostics.trivy,

@@ -24,6 +24,7 @@ return {
 				"prettier",
 				"nixpkgs-fmt",
 				"buf",
+				"hclfmt",
 
 				-- Linters
 				"tflint",
