@@ -93,6 +93,7 @@ abbr -a to tofu
 abbr -a n lima nerdctl
 abbr -a l limactl
 abbr -a d docker
+abbr -a c container
 abbr -a v vim
 
 ########################################
