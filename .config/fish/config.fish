@@ -72,7 +72,7 @@ set -gx PRE_COMMIT_COLOR never
 set -gx NO_COLOR 1
 
 # 1password plugins
-source /Users/steve/.config/op/plugins.sh
+source $HOME/.config/op/plugins.sh
 
 ########################################
 # GitLab
