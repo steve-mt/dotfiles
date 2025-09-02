@@ -47,3 +47,10 @@ vim.opt.showmode = false
 
 -- Save undo history
 vim.opt.undofile = true
+
+-- File types
+vim.filetype.add({
+	extension = {
+		tofu = "terraform",
+	},
+})
