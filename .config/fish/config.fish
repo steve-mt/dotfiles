@@ -1,3 +1,8 @@
+# Flox default environment
+if type -q flox 
+  flox activate -d $HOME -m run | source
+end
+
 # Taken from /opt/homebrew/bin/brew shellenv but modified to add homebrew first to the Path
 # We need it to be first to override things like `bash.
 set -gx HOMEBREW_PREFIX "/opt/homebrew";

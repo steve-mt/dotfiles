@@ -1,0 +1,505 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "fish": {
+        "pkg-path": "fish"
+      },
+      "tmux": {
+        "pkg-path": "tmux"
+      },
+      "yadm": {
+        "pkg-path": "yadm"
+      },
+      "zoxide": {
+        "pkg-path": "zoxide"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "activate": {
+        "mode": "run"
+      }
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "fish",
+      "broken": false,
+      "derivation": "/nix/store/ddss5rc08jbh8aqgj5wlgpg8ckgmzwip-fish-4.0.2.drv",
+      "description": "Smart and user-friendly command line shell",
+      "install_id": "fish",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "fish-4.0.2",
+      "pname": "fish",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:28:52.956083Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.0.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/c8vh8838z7vf4klq1m5v5xngdkqrndf1-fish-4.0.2-doc",
+        "out": "/nix/store/lpw8c8czj01smmliz4y80bpikkm53q0s-fish-4.0.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "fish",
+      "broken": false,
+      "derivation": "/nix/store/1bwg4rbk1n2847cgrg7jprbnj3bdj0cg-fish-4.0.2.drv",
+      "description": "Smart and user-friendly command line shell",
+      "install_id": "fish",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "fish-4.0.2",
+      "pname": "fish",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:37:16.635065Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.0.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/miq20hh3gxkpd8w6ycwgfv6m7bjwx2bn-fish-4.0.2-doc",
+        "out": "/nix/store/ng5vsvcg5p6y2193bdjjnqpxsfcnzz26-fish-4.0.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "fish",
+      "broken": false,
+      "derivation": "/nix/store/hmi7lrsm3n64xhlx52hwwasrkn5c9fi3-fish-4.0.2.drv",
+      "description": "Smart and user-friendly command line shell",
+      "install_id": "fish",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "fish-4.0.2",
+      "pname": "fish",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:45:26.002107Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.0.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/mrqlr4zjwjlldhg4mh4rbjb8gmd6h23h-fish-4.0.2-doc",
+        "out": "/nix/store/lsir1rzdz16psv55w2l0s2dj06sgbwr4-fish-4.0.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "fish",
+      "broken": false,
+      "derivation": "/nix/store/mfx7gwasb434rzw0wkgqzyf67jk9v9xi-fish-4.0.2.drv",
+      "description": "Smart and user-friendly command line shell",
+      "install_id": "fish",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "fish-4.0.2",
+      "pname": "fish",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:52:53.398323Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.0.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/7gd18jrxfs4l7a74nghkgjr1kq6940f8-fish-4.0.2-doc",
+        "out": "/nix/store/rq95q4jkwxhb0igdiwfnnfqj80cww1hg-fish-4.0.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "tmux",
+      "broken": false,
+      "derivation": "/nix/store/8g9c446acq461r14j1md5nfjg501garr-tmux-3.5a.drv",
+      "description": "Terminal multiplexer",
+      "install_id": "tmux",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "tmux-3.5a",
+      "pname": "tmux",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:30:05.688470Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.5a",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "man": "/nix/store/w964nj6mj7pv40012b90705m1c2k35px-tmux-3.5a-man",
+        "out": "/nix/store/if7nacz7cw83vc0b4kh1q6rqycbs9ra6-tmux-3.5a"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "tmux",
+      "broken": false,
+      "derivation": "/nix/store/gfja7jmvj9dn1a309raa74bndlyqxbgv-tmux-3.5a.drv",
+      "description": "Terminal multiplexer",
+      "install_id": "tmux",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "tmux-3.5a",
+      "pname": "tmux",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:39:10.571211Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.5a",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "man": "/nix/store/h05c2j7yr51mg3h4p3drmvm6x1g64y0s-tmux-3.5a-man",
+        "out": "/nix/store/y8ih1pj6fqjww4z1r0nnrfal11w5ycii-tmux-3.5a"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "tmux",
+      "broken": false,
+      "derivation": "/nix/store/7w26bf8nk4122z5q6yil1770cxzwp5h7-tmux-3.5a.drv",
+      "description": "Terminal multiplexer",
+      "install_id": "tmux",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "tmux-3.5a",
+      "pname": "tmux",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:46:44.139105Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.5a",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "man": "/nix/store/gcmfy4i0dp85nrm26ypz794kl3gdxvj9-tmux-3.5a-man",
+        "out": "/nix/store/0ab6j9bvy63y344b1g217xnji35byrpl-tmux-3.5a"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "tmux",
+      "broken": false,
+      "derivation": "/nix/store/y63smni5i43hcbikckmr2cayjhzw4czw-tmux-3.5a.drv",
+      "description": "Terminal multiplexer",
+      "install_id": "tmux",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "tmux-3.5a",
+      "pname": "tmux",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:54:46.995927Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.5a",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "man": "/nix/store/cs89bl8xwa8wk4fbn6v6av57avl74agf-tmux-3.5a-man",
+        "out": "/nix/store/c9lrag63kf5yi181p68qjwqmpxa21jsw-tmux-3.5a"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "yadm",
+      "broken": false,
+      "derivation": "/nix/store/hp7w3dk7p51fh1xkmipa4qcypzn4g0p3-yadm-3.5.0.drv",
+      "description": "Yet Another Dotfiles Manager",
+      "install_id": "yadm",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "yadm-3.5.0",
+      "pname": "yadm",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:30:24.758706Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.5.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/cikhsmv9yc5472xy1qwqk9r27qgpapkr-yadm-3.5.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "yadm",
+      "broken": false,
+      "derivation": "/nix/store/na2bmmd2amjsgsz2bg08badqa3q4d0ih-yadm-3.5.0.drv",
+      "description": "Yet Another Dotfiles Manager",
+      "install_id": "yadm",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "yadm-3.5.0",
+      "pname": "yadm",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:39:38.629668Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.5.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/ir3chlvvgy0nywc87fz4w0pdsig56x4h-yadm-3.5.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "yadm",
+      "broken": false,
+      "derivation": "/nix/store/95rzifjr20z8h0xckimnki6myjrr5h34-yadm-3.5.0.drv",
+      "description": "Yet Another Dotfiles Manager",
+      "install_id": "yadm",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "yadm-3.5.0",
+      "pname": "yadm",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:47:05.674062Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.5.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/0a0qix7xvd5q3gmdrj2hgrvsxymnnk8h-yadm-3.5.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "yadm",
+      "broken": false,
+      "derivation": "/nix/store/kcp3hls9i34gdrnz7mx9s944ppgax34b-yadm-3.5.0.drv",
+      "description": "Yet Another Dotfiles Manager",
+      "install_id": "yadm",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "yadm-3.5.0",
+      "pname": "yadm",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:55:14.710730Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.5.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/fxpj7qpkzkh2cpif0a6akqm9kqjhhhgv-yadm-3.5.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "zoxide",
+      "broken": false,
+      "derivation": "/nix/store/afvdha0wqknm4261d9lhp6aapg7k9z5b-zoxide-0.9.8.drv",
+      "description": "Fast cd command that learns your habits",
+      "install_id": "zoxide",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "zoxide-0.9.8",
+      "pname": "zoxide",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:30:25.626269Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.9.8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/22djmsjhs6h87rl3m5j0r58fh24q0fm6-zoxide-0.9.8"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "zoxide",
+      "broken": false,
+      "derivation": "/nix/store/v429zfdjvc3mdf4kn57blng70g5zzd45-zoxide-0.9.8.drv",
+      "description": "Fast cd command that learns your habits",
+      "install_id": "zoxide",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "zoxide-0.9.8",
+      "pname": "zoxide",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:39:40.146403Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.9.8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/nl9v6dqcyn2fs1nanywlzi9z6i1glbpp-zoxide-0.9.8"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "zoxide",
+      "broken": false,
+      "derivation": "/nix/store/afy9z386rxglsxfp8jr7cmj3vjjf1x6w-zoxide-0.9.8.drv",
+      "description": "Fast cd command that learns your habits",
+      "install_id": "zoxide",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "zoxide-0.9.8",
+      "pname": "zoxide",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:47:06.644982Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.9.8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/g2byfslwx1zd72jqh63844jk3q07ps1n-zoxide-0.9.8"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "zoxide",
+      "broken": false,
+      "derivation": "/nix/store/ppqd4cigin13kpnp1dp5n2jyvlpzfsz4-zoxide-0.9.8.drv",
+      "description": "Fast cd command that learns your habits",
+      "install_id": "zoxide",
+      "license": "[ MIT ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "zoxide-0.9.8",
+      "pname": "zoxide",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:55:16.212983Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.9.8",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/xwa0gj9yphg3836icxj6kwnqiq9gpzn1-zoxide-0.9.8"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
