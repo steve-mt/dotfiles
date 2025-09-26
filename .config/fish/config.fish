@@ -1,5 +1,5 @@
 # Flox default environment
-if type -q flox 
+if type -q flox
   flox activate -d $HOME -m run | source
 end
 
@@ -100,6 +100,7 @@ abbr -a l limactl
 abbr -a d docker
 abbr -a c container
 abbr -a v vim
+abbr -a lg lazygit
 
 ########################################
 # Git abbreviations
