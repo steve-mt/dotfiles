@@ -19,6 +19,14 @@ fish.pkg-path = "fish"
 yadm.pkg-path = "yadm"
 tmux.pkg-path = "tmux"
 zoxide.pkg-path = "zoxide"
+neovim.pkg-path = "neovim"
+go.pkg-path = "go"
+nodejs.pkg-path = "nodejs"
+ruby.pkg-path = "ruby"
+cargo.pkg-path = "cargo"
+ripgrep.pkg-path = "ripgrep"
+fd.pkg-path = "fd"
+fzf.pkg-path = "fzf"
 
 ## Environment Variables ---------------------------------------------
 ##  ... available for use in the activated environment
