@@ -6,6 +6,9 @@
       "cargo": {
         "pkg-path": "cargo"
       },
+      "direnv": {
+        "pkg-path": "direnv"
+      },
       "fd": {
         "pkg-path": "fd"
       },
@@ -14,6 +17,9 @@
       },
       "fzf": {
         "pkg-path": "fzf"
+      },
+      "git": {
+        "pkg-path": "git"
       },
       "go": {
         "pkg-path": "go"
@@ -160,6 +166,122 @@
       ],
       "outputs": {
         "out": "/nix/store/nhzjlz4533ancqnkb8jcn6abl1q9n7s4-cargo-1.89.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "direnv",
+      "broken": false,
+      "derivation": "/nix/store/yqjs353c5m4vn504fh0angzmvd4zqzzb-direnv-2.37.1.drv",
+      "description": "Shell extension that manages your environment",
+      "install_id": "direnv",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "direnv-2.37.1",
+      "pname": "direnv",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:28:52.661510Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.37.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/ra317h53qg2d53vpgjwqpnfjxa2jx72p-direnv-2.37.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "direnv",
+      "broken": false,
+      "derivation": "/nix/store/hqb3drpfq6i73k3p9qy8kp5jj24pd83v-direnv-2.37.1.drv",
+      "description": "Shell extension that manages your environment",
+      "install_id": "direnv",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "direnv-2.37.1",
+      "pname": "direnv",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:37:16.155845Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.37.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/r8pyldjahifcya3dp782iia1id7bvfar-direnv-2.37.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "direnv",
+      "broken": false,
+      "derivation": "/nix/store/knsp22h8jcps2jjz32irpn11npzwvr1h-direnv-2.37.1.drv",
+      "description": "Shell extension that manages your environment",
+      "install_id": "direnv",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "direnv-2.37.1",
+      "pname": "direnv",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:45:25.715610Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.37.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/9hch9w87dkf7r7rffxdq2zgia7qdkb2i-direnv-2.37.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "direnv",
+      "broken": false,
+      "derivation": "/nix/store/qy2mncd4ir99di1s9909wyarh5hk4qpr-direnv-2.37.1.drv",
+      "description": "Shell extension that manages your environment",
+      "install_id": "direnv",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "direnv-2.37.1",
+      "pname": "direnv",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:52:52.869471Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.37.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/bdf516vl81c2zcgizlv7hpig5yqfm0bz-direnv-2.37.1"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -520,6 +642,128 @@
       "outputs": {
         "man": "/nix/store/ypi1x55xmmw448kax279nd2xqa75hxcp-fzf-0.65.1-man",
         "out": "/nix/store/5q5b65a6zwdjail4waq7dd3r4lyhkjw6-fzf-0.65.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "git",
+      "broken": false,
+      "derivation": "/nix/store/my37053qlsn20agd4gngw3akvvkj8ycn-git-2.50.1.drv",
+      "description": "Distributed version control system",
+      "install_id": "git",
+      "license": "GPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "git-2.50.1",
+      "pname": "git",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:28:53.156227Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.50.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/36rqvcm3q9jdbzysr6x6si9i15yyy9yh-git-2.50.1-doc",
+        "out": "/nix/store/56avrmkafl3ymr5azsgx4lagzrhc79nd-git-2.50.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "git",
+      "broken": false,
+      "derivation": "/nix/store/46mhgflpndhr99rccamikg7pjwknxylg-git-2.50.1.drv",
+      "description": "Distributed version control system",
+      "install_id": "git",
+      "license": "GPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "git-2.50.1",
+      "pname": "git",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:37:16.967363Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.50.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/ln77l8pbk2gyvavr0lgb45xq4i4y5f2p-git-2.50.1-debug",
+        "doc": "/nix/store/i8gjlj5vpcllwpkw53lzxl2wa8j7vlld-git-2.50.1-doc",
+        "out": "/nix/store/jpadzfxc9zz3cacng4wlyn6vzhgf3mga-git-2.50.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "git",
+      "broken": false,
+      "derivation": "/nix/store/asmf27ybgmdfkmgn1vrfl87g0havppnk-git-2.50.1.drv",
+      "description": "Distributed version control system",
+      "install_id": "git",
+      "license": "GPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "git-2.50.1",
+      "pname": "git",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:45:26.203827Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.50.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/axw33im2q7q6bi3j8cbhi139n9k1q9zb-git-2.50.1-doc",
+        "out": "/nix/store/h32rn7zl7ac3jl0iidf7ll3rwj81961x-git-2.50.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "git",
+      "broken": false,
+      "derivation": "/nix/store/s9ilqag44931jnwrazwrha1ql5cfahq4-git-2.50.1.drv",
+      "description": "Distributed version control system",
+      "install_id": "git",
+      "license": "GPL-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "name": "git-2.50.1",
+      "pname": "git",
+      "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
+      "rev_count": 854036,
+      "rev_date": "2025-08-30T08:25:00Z",
+      "scrape_date": "2025-08-31T03:52:53.786704Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.50.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/xipypc58mgavflc7am3m28sk9hpczwf6-git-2.50.1-debug",
+        "doc": "/nix/store/64fvclm5bwrp7zff8wa3cl8z6lhczc9s-git-2.50.1-doc",
+        "out": "/nix/store/zhv8ib8y1zfi76afddfnp8fmm562bgaa-git-2.50.1"
       },
       "system": "x86_64-linux",
       "group": "toplevel",

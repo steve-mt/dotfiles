@@ -27,6 +27,8 @@ cargo.pkg-path = "cargo"
 ripgrep.pkg-path = "ripgrep"
 fd.pkg-path = "fd"
 fzf.pkg-path = "fzf"
+git.pkg-path = "git"
+direnv.pkg-path = "direnv"
 
 ## Environment Variables ---------------------------------------------
 ##  ... available for use in the activated environment
