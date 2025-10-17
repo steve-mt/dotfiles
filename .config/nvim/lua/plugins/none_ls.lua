@@ -23,9 +23,6 @@ return {
 				null_ls.builtins.formatting.codespell.with({
 					extra_args = { "-I", "~/.codespell-ignore" },
 				}),
-				null_ls.builtins.formatting.yamlfix.with({
-					extra_args = { "-c", "~/.config/yamlfix/config.toml" },
-				}),
 				null_ls.builtins.formatting.buf,
 				null_ls.builtins.formatting.shfmt.with({
 					extra_args = { "-i", "2", "-s" },
