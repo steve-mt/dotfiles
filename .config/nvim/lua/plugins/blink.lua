@@ -10,7 +10,13 @@ return {
 	opts = {
 		snippets = { preset = "luasnip" },
 
-		completion = { documentation = { auto_show = false } },
+		completion = {
+			menu = {
+				border = "rounded",
+				winhighlight = "Normal:Normal,FloatBorder:FloatBorder,CursorLine:PmenuSel,Search:None",
+			},
+			documentation = { auto_show = false },
+		},
 
 		sources = {
 			default = { "lsp", "path", "snippets", "buffer", "lazydev" },

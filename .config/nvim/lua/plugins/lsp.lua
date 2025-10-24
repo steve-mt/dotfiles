@@ -27,6 +27,17 @@ return {
 			})
 		end, {})
 
+		-- Set default border for all floating windows
+		vim.api.nvim_set_hl(0, "FloatBorder", { link = "Normal" })
+		vim.api.nvim_set_hl(0, "NormalFloat", { link = "Normal" })
+
+		local orig_util_open_floating_preview = vim.lsp.util.open_floating_preview
+		function vim.lsp.util.open_floating_preview(contents, syntax, opts, ...)
+			opts = opts or {}
+			opts.border = opts.border or "rounded"
+			return orig_util_open_floating_preview(contents, syntax, opts, ...)
+		end
+
 		-- Server configurations
 		local servers = {
 			gopls = {
