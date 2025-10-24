@@ -49,10 +49,12 @@ alt-shift-7 = 'move-node-to-workspace --focus-follows-window 7'
 alt-shift-semicolon = 'mode service'
 alt-shift-r = 'mode resize'
 
+# Shortcuts to open applications
 alt-enter = 'exec-and-forget open -n /Applications/Ghostty.app'
 alt-b = 'exec-and-forget open -n /Applications/Helium.app'
 alt-t = 'exec-and-forget open -n /Applications/Todoist.app'
 alt-m = 'exec-and-forget open -n /System/Applications/Mail.app'
+alt-a = 'exec-and-forget open https://claude.ai'
 
 [mode.resize.binding]
 minus = 'resize smart -50'
