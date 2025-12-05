@@ -10,6 +10,11 @@ return {
 	opts = {
 		snippets = { preset = "luasnip" },
 
+		keymap = {
+			preset = "default",
+			["<Tab>"] = { "fallback" },
+		},
+
 		completion = {
 			menu = {
 				border = "rounded",

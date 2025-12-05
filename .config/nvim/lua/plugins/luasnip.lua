@@ -5,6 +5,20 @@ return {
 		local luasnip = require("luasnip")
 		luasnip.config.setup({})
 
+		-- Jump to next snippet placeholder with <C-n>
+		vim.keymap.set({ "i", "s" }, "<C-n>", function()
+			if luasnip.jumpable(1) then
+				luasnip.jump(1)
+			end
+		end, { silent = true })
+
+		-- Jump to previous snippet placeholder with <C-p>
+		vim.keymap.set({ "i", "s" }, "<C-p>", function()
+			if luasnip.jumpable(-1) then
+				luasnip.jump(-1)
+			end
+		end, { silent = true })
+
 		local snippet = luasnip.snippet
 		local text = luasnip.text_node
 		local insert = luasnip.insert_node
