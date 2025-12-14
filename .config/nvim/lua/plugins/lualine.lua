@@ -1,5 +1,5 @@
 return {
-	"hoob3rt/lualine.nvim",
+	"nvim-lualine/lualine.nvim",
 	config = function()
 		local theme = require("lualine.themes.onelight")
 		theme.normal.a.bg = "#f0f0f0"
