@@ -12,7 +12,7 @@ return {
 		telescope.setup({
 			pickers = {
 				find_files = {
-					find_command = { "fd", "--hidden" },
+					find_command = { "fd", "--hidden", "--type", "f" },
 				},
 				live_grep = {
 					additional_args = { "--hidden" },
