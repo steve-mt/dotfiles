@@ -7,17 +7,18 @@ return {
 			ensure_installed = {
 				-- LSP
 				"gopls",
-				"rust_analyzer",
+				"rust-analyzer",
 				"jsonnet_ls",
-				"lua_ls",
+				"lua-language-server",
 				"typescript-language-server",
-				"bashls",
-				"terraformls",
+				"bash-language-server",
+				"terraform-ls",
 
 				-- Formatters
 				"stylua",
 				"jq",
 				"gofumpt",
+				"goimports",
 				"rubocop", -- System installed ruby fails to install this.
 				"yamlfix",
 				"shfmt",
@@ -35,6 +36,7 @@ return {
 				"trivy",
 				"codespell",
 				"golangci-lint",
+				"staticcheck",
 			},
 		})
 	end,
