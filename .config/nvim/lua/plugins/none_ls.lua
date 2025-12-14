@@ -21,7 +21,7 @@ return {
 				null_ls.builtins.formatting.markdownlint,
 				null_ls.builtins.formatting.nixpkgs_fmt,
 				null_ls.builtins.formatting.codespell.with({
-					extra_args = { "-I", "~/.codespell-ignore" },
+					extra_args = { "-I", vim.fn.expand("~/.codespell-ignore") },
 				}),
 				null_ls.builtins.formatting.buf,
 				null_ls.builtins.formatting.shfmt.with({
@@ -38,7 +38,7 @@ return {
 					extra_args = { "--disable", "MD013", "MD033" },
 				}),
 				null_ls.builtins.diagnostics.codespell.with({
-					extra_args = { "-I", "~/.codespell-ignore" },
+					extra_args = { "-I", vim.fn.expand("~/.codespell-ignore") },
 				}),
 				null_ls.builtins.diagnostics.vale,
 				null_ls.builtins.diagnostics.golangci_lint,
