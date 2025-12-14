@@ -4,6 +4,7 @@ return {
 		"williamboman/mason.nvim",
 		"williamboman/mason-lspconfig.nvim",
 		"saghen/blink.cmp",
+		"nvim-telescope/telescope.nvim",
 	},
 	config = function()
 		require("mason").setup()
