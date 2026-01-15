@@ -101,7 +101,7 @@ abbr -a d docker
 abbr -a c container
 abbr -a v vim
 abbr -a lg lazygit
-
+abbr -a oc opencode
 ########################################
 # Git abbreviations
 ########################################
