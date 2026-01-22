@@ -3,18 +3,13 @@ if type -q flox
   flox activate -d $HOME -m run | source
 end
 
-# Taken from /opt/homebrew/bin/brew shellenv but modified to add homebrew first to the Path
-# We need it to be first to override things like `bash.
-set -gx HOMEBREW_PREFIX "/opt/homebrew";
-set -gx HOMEBREW_CELLAR "/opt/homebrew/Cellar";
-set -gx HOMEBREW_REPOSITORY "/opt/homebrew";
-set -gx PATH /opt/homebrew/bin $PATH
-set -gx PATH /opt/homebrew/sbin $PATH
-
 # mise installation
 if type -q mise
     mise activate fish | source
 end
+
+# Needs to be after mise to not mess up paths.
+set -gx PATH /opt/homebrew/bin $PATH
 
 # direnv shell update
 if type -q direnv
