@@ -30,6 +30,7 @@ fzf.pkg-path = "fzf"
 git.pkg-path = "git"
 direnv.pkg-path = "direnv"
 lazygit.pkg-path = "lazygit"
+jujutsu.pkg-path = "jujutsu"
 
 ## Environment Variables ---------------------------------------------
 ##  ... available for use in the activated environment
