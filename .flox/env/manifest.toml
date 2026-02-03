@@ -31,6 +31,8 @@ git.pkg-path = "git"
 direnv.pkg-path = "direnv"
 lazygit.pkg-path = "lazygit"
 jujutsu.pkg-path = "jujutsu"
+lima.pkg-path = "lima"
+docker.pkg-path = "docker"
 
 ## Environment Variables ---------------------------------------------
 ##  ... available for use in the activated environment

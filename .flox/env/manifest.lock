@@ -9,6 +9,9 @@
       "direnv": {
         "pkg-path": "direnv"
       },
+      "docker": {
+        "pkg-path": "docker"
+      },
       "fd": {
         "pkg-path": "fd"
       },
@@ -29,6 +32,9 @@
       },
       "lazygit": {
         "pkg-path": "lazygit"
+      },
+      "lima": {
+        "pkg-path": "lima"
       },
       "neovim": {
         "pkg-path": "neovim"
@@ -288,6 +294,122 @@
       ],
       "outputs": {
         "out": "/nix/store/dvdlhzcb6yq1n29ilbmh154mnlxwx6z5-direnv-2.37.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "docker",
+      "broken": false,
+      "derivation": "/nix/store/vyai0dd8yzr251m60lfdq10zd3b68ddv-docker-29.1.5.drv",
+      "description": "Open source project to pack, ship and run any application as a lightweight container",
+      "install_id": "docker",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c5296fdd05cfa2c187990dd909864da9658df755",
+      "name": "docker-29.1.5",
+      "pname": "docker",
+      "rev": "c5296fdd05cfa2c187990dd909864da9658df755",
+      "rev_count": 933481,
+      "rev_date": "2026-01-23T12:18:02Z",
+      "scrape_date": "2026-01-26T04:35:12.845715Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "29.1.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/18ji3i1mpaz0qsbd6kd3l6qqd4spys3d-docker-29.1.5"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "docker",
+      "broken": false,
+      "derivation": "/nix/store/3zcmfcbbfchi0qcw3i0d90jnxmh5x12a-docker-29.1.5.drv",
+      "description": "Open source project to pack, ship and run any application as a lightweight container",
+      "install_id": "docker",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c5296fdd05cfa2c187990dd909864da9658df755",
+      "name": "docker-29.1.5",
+      "pname": "docker",
+      "rev": "c5296fdd05cfa2c187990dd909864da9658df755",
+      "rev_count": 933481,
+      "rev_date": "2026-01-23T12:18:02Z",
+      "scrape_date": "2026-01-26T05:16:58.053872Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "29.1.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/jp0kgji34s28cqnqa99ki46jf47sydbc-docker-29.1.5"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "docker",
+      "broken": false,
+      "derivation": "/nix/store/wn4mnbzlz6q47r9ml2w4l5317df6g2ah-docker-29.1.5.drv",
+      "description": "Open source project to pack, ship and run any application as a lightweight container",
+      "install_id": "docker",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c5296fdd05cfa2c187990dd909864da9658df755",
+      "name": "docker-29.1.5",
+      "pname": "docker",
+      "rev": "c5296fdd05cfa2c187990dd909864da9658df755",
+      "rev_count": 933481,
+      "rev_date": "2026-01-23T12:18:02Z",
+      "scrape_date": "2026-01-26T05:56:06.586390Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "29.1.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/m5v67zbb1ihaw0lrxmfr7g3yakpah0zc-docker-29.1.5"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "docker",
+      "broken": false,
+      "derivation": "/nix/store/0wnwlkq0hr81yx456v0g2z111s2ffmvi-docker-29.1.5.drv",
+      "description": "Open source project to pack, ship and run any application as a lightweight container",
+      "install_id": "docker",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c5296fdd05cfa2c187990dd909864da9658df755",
+      "name": "docker-29.1.5",
+      "pname": "docker",
+      "rev": "c5296fdd05cfa2c187990dd909864da9658df755",
+      "rev_count": 933481,
+      "rev_date": "2026-01-23T12:18:02Z",
+      "scrape_date": "2026-01-26T06:51:07.799386Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "29.1.5",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/dkrdl30miyrh9zcjrv33m7akfmlyjjda-docker-29.1.5"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -1118,6 +1240,122 @@
       ],
       "outputs": {
         "out": "/nix/store/l55q05b9lfb5f8rrk8dhd3n51b9rwbq6-lazygit-0.58.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "lima",
+      "broken": false,
+      "derivation": "/nix/store/723664rdbh1x0rajzch42vcg9ibbaw9b-lima-2.0.3.drv",
+      "description": "Linux virtual machines with automatic file sharing and port forwarding",
+      "install_id": "lima",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c5296fdd05cfa2c187990dd909864da9658df755",
+      "name": "lima-2.0.3",
+      "pname": "lima",
+      "rev": "c5296fdd05cfa2c187990dd909864da9658df755",
+      "rev_count": 933481,
+      "rev_date": "2026-01-23T12:18:02Z",
+      "scrape_date": "2026-01-26T04:35:31.364380Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.0.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/017n1dv6vzar90chyv9mlxci60si5c5m-lima-2.0.3"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "lima",
+      "broken": false,
+      "derivation": "/nix/store/haa8gmxn5vqinz93gh1qg9xhm3b6868a-lima-2.0.3.drv",
+      "description": "Linux virtual machines with automatic file sharing and port forwarding",
+      "install_id": "lima",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c5296fdd05cfa2c187990dd909864da9658df755",
+      "name": "lima-2.0.3",
+      "pname": "lima",
+      "rev": "c5296fdd05cfa2c187990dd909864da9658df755",
+      "rev_count": 933481,
+      "rev_date": "2026-01-23T12:18:02Z",
+      "scrape_date": "2026-01-26T05:17:22.314699Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.0.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/v188dr6ihzg0a2i4rmpcjfniamkrbzd1-lima-2.0.3"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "lima",
+      "broken": false,
+      "derivation": "/nix/store/fdps5w9fnqb2hjffyg1jf2pk857x9kjh-lima-2.0.3.drv",
+      "description": "Linux virtual machines with automatic file sharing and port forwarding",
+      "install_id": "lima",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c5296fdd05cfa2c187990dd909864da9658df755",
+      "name": "lima-2.0.3",
+      "pname": "lima",
+      "rev": "c5296fdd05cfa2c187990dd909864da9658df755",
+      "rev_count": 933481,
+      "rev_date": "2026-01-23T12:18:02Z",
+      "scrape_date": "2026-01-26T05:56:24.161190Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.0.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/0wfhdy88rjplycfyvxw50cgn19f3i2iw-lima-2.0.3"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "lima",
+      "broken": false,
+      "derivation": "/nix/store/fvpqri7r23xyg51nzl6m60p0ddx0bzip-lima-2.0.3.drv",
+      "description": "Linux virtual machines with automatic file sharing and port forwarding",
+      "install_id": "lima",
+      "license": "Apache-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=c5296fdd05cfa2c187990dd909864da9658df755",
+      "name": "lima-2.0.3",
+      "pname": "lima",
+      "rev": "c5296fdd05cfa2c187990dd909864da9658df755",
+      "rev_count": 933481,
+      "rev_date": "2026-01-23T12:18:02Z",
+      "scrape_date": "2026-01-26T06:51:32.917514Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.0.3",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/313hri5mapk572ak2wsc8jzs6z1g42p3-lima-2.0.3"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
