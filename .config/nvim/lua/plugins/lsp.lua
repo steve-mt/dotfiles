@@ -34,6 +34,7 @@ return {
 				gopls = {
 					gofumpt = true,
 					staticcheck = true,
+					buildFalgs = { "-tags=integration" }, -- Common tags
 				},
 			},
 			rust_analyzer = {
