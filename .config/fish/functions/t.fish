@@ -1,10 +1,15 @@
-# Save as ~/.config/fish/functions/tp.fish
-# Usage: tp myapp    (resolved via zoxide)
-#        tp .        (current directory)
-#        tp -l       (list active project sessions)
-#        tp -k       (kill current session)
+# Save as ~/.config/fish/functions/t.fish
+# Usage: t myapp    (resolved via zoxide)
+#        t .        (current directory)
+#        t          (zoxide fuzzy search, replaces current session)
+#        t -n       (zoxide fuzzy search, new session)
+#        t -n myapp (new session, resolved via zoxide)
+#        t -l       (list active project sessions)
+#        t -k       (kill current session)
 
 function t
+    set -l kill_previous yes
+
     # Handle flags
     switch "$argv[1]"
         case -l --list
@@ -19,22 +24,16 @@ function t
                 return 1
             end
             return 0
+        case -n --new
+            set kill_previous no
     end
 
-    # set -l query $argv[1]
-    # test -z "$query"; and set query "."
-
-    # # Resolve directory
-    # set -l dir
-    # if command -q zoxide; and test "$query" != "."
-    #     set dir (zoxide query -- "$query" 2>/dev/null)
-    #     or begin
-    #         echo "zoxide: no match for '$query'"
-    #         return 1
-    #     end
-    # else
-    #     set dir (realpath "$query" 2>/dev/null)
-    set -l query $argv[1]
+    set -l query
+    if test "$kill_previous" = no
+        set query $argv[2]
+    else
+        set query $argv[1]
+    end
 
     # Resolve directory
     set -l dir
@@ -81,7 +80,7 @@ function t
         else
             tmux attach-session -t "=$name"
         end
-        if test -n "$current_session"; and test "$current_session" != "$name"
+        if test "$kill_previous" = yes; and test -n "$current_session"; and test "$current_session" != "$name"
             tmux kill-session -t "=$current_session"
         end
         return 0
@@ -102,7 +101,7 @@ function t
     # Attach / switch
     if set -q TMUX
         tmux switch-client -t "=$name"
-        if test -n "$current_session"; and test "$current_session" != "$name"
+        if test "$kill_previous" = yes; and test -n "$current_session"; and test "$current_session" != "$name"
             tmux kill-session -t "=$current_session"
         end
     else
