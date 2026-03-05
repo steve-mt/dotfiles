@@ -35,6 +35,27 @@ return {
 						gofumpt = true,
 						staticcheck = true,
 						buildFlags = { "-tags=integration" }, -- Common tags
+						directoryFilters = {
+							"-**/.git",
+							"-**/node_modules",
+							"-**/vendor",
+							"-**/dist",
+							"-**/tmp",
+						},
+						analyses = {
+							unusedparams = true,
+							unusedwrite = true,
+						},
+						vulncheck = "Imports",
+						hints = {
+							assignVariableTypes = true,
+							compositeLiteralFields = true,
+							compositeLiteralTypes = true,
+							constantValues = true,
+							functionTypeParameters = true,
+							parameterNames = true,
+							rangeVariableTypes = true,
+						},
 					},
 				},
 			},
