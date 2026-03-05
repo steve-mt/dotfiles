@@ -2,7 +2,6 @@ return {
 	"neovim/nvim-lspconfig",
 	dependencies = {
 		"williamboman/mason.nvim",
-		"williamboman/mason-lspconfig.nvim",
 		"saghen/blink.cmp",
 		"nvim-telescope/telescope.nvim",
 	},
@@ -31,16 +30,20 @@ return {
 		-- Server configurations
 		local servers = {
 			gopls = {
-				gopls = {
-					gofumpt = true,
-					staticcheck = true,
-					buildFalgs = { "-tags=integration" }, -- Common tags
+				settings = {
+					gopls = {
+						gofumpt = true,
+						staticcheck = true,
+						buildFlags = { "-tags=integration" }, -- Common tags
+					},
 				},
 			},
 			rust_analyzer = {
-				["rust-analyzer"] = {
-					check = {
-						command = "clippy",
+				settings = {
+					["rust-analyzer"] = {
+						check = {
+							command = "clippy",
+						},
 					},
 				},
 			},
@@ -48,18 +51,22 @@ return {
 			jsonnet_ls = {},
 
 			lua_ls = {
-				Lua = {
-					workspace = { checkThirdParty = false },
-					telemetry = { enable = false },
+				settings = {
+					Lua = {
+						workspace = { checkThirdParty = false },
+						telemetry = { enable = false },
+					},
 				},
 			},
 
 			ts_ls = {},
 
 			bashls = {
-				bashIde = {
-					shfmt = {
-						path = "", -- Use none ls instead since we have more control on settings.
+				settings = {
+					bashIde = {
+						shfmt = {
+							path = "", -- Use none ls instead since we have more control on settings.
+						},
 					},
 				},
 			},
@@ -71,19 +78,10 @@ return {
 		local capabilities = vim.lsp.protocol.make_client_capabilities()
 		capabilities = require("blink.cmp").get_lsp_capabilities(capabilities)
 
-		require("mason-lspconfig").setup({
-			ensure_installed = {}, -- explicitly set to an empty table (Kickstart populates installs via mason-tool-installer)
-			automatic_installation = false,
-			handlers = {
-				function(server_name)
-					local server = servers[server_name] or {}
-					-- This handles overriding only values explicitly passed
-					-- by the server configuration above. Useful when disabling
-					-- certain features of an LSP (for example, turning off formatting for ts_ls)
-					server.capabilities = vim.tbl_deep_extend("force", {}, capabilities, server.capabilities or {})
-					require("lspconfig")[server_name].setup(server)
-				end,
-			},
-		})
+		for server_name, server in pairs(servers) do
+			server.capabilities = vim.tbl_deep_extend("force", {}, capabilities, server.capabilities or {})
+			vim.lsp.config(server_name, server)
+			vim.lsp.enable(server_name)
+		end
 	end,
 }

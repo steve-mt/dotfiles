@@ -8,7 +8,7 @@ return {
 				-- LSP
 				"gopls",
 				"rust-analyzer",
-				"jsonnet_ls",
+				"jsonnet-language-server",
 				"lua-language-server",
 				"typescript-language-server",
 				"bash-language-server",
