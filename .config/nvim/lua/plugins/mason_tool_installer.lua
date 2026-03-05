@@ -20,7 +20,6 @@ return {
 				"gofumpt",
 				"goimports",
 				"rubocop", -- System installed ruby fails to install this.
-				"yamlfix",
 				"shfmt",
 				"prettier",
 				"nixpkgs-fmt",
