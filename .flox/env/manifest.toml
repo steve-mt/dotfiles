@@ -33,6 +33,7 @@ lazygit.pkg-path = "lazygit"
 jujutsu.pkg-path = "jujutsu"
 lima.pkg-path = "lima"
 docker.pkg-path = "docker"
+python3.pkg-path = "python3"
 
 ## Environment Variables ---------------------------------------------
 ##  ... available for use in the activated environment
