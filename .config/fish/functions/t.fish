@@ -92,7 +92,11 @@ function t
     tmux send-keys -t "$name" "vim" Enter
 
     tmux new-window -t "$name" -c "$dir" -n ''
-    tmux send-keys -t "$name" "opencode" Enter
+    if command -q claude
+        tmux send-keys -t "$name" "claude" Enter
+    else
+        tmux send-keys -t "$name" "opencode" Enter
+    end
 
     tmux new-window -t "$name" -c "$dir" -n ''
 
