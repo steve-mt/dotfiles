@@ -1,0 +1,72 @@
+{
+  "permissions": {
+    "defaultMode": "plan",
+    "allow": ["WebFetch(domain:gitlab.com)", "mcp__GitLab__:*"],
+    "deny": [
+      "Read(~/.ssh/**)",
+      "Read(~/.aws/**)",
+      "Read(~/.gnupg/**)",
+      "Read(~/.netrc)",
+      "Edit(~/.ssh/**)",
+      "Edit(~/.aws/**)",
+      "Edit(~/.gnupg/**)",
+      "Edit(~/.netrc)",
+      "Write(~/.ssh/**)",
+      "Write(~/.aws/**)",
+      "Write(~/.gnupg/**)",
+      "Write(~/.netrc)"
+    ]
+  },
+  "model": "opus[1m]",
+  "enabledPlugins": {
+    "gopls-lsp@claude-plugins-official": true,
+    "code-simplifier@claude-plugins-official": true,
+    "coderabbit@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": true
+  },
+  "sandbox": {
+    "autoAllowBashIfSandboxed": true,
+    "enabled": true,
+    "filesystem": {
+      "denyRead": ["~/.ssh", "~/.aws", "~/.gnupg", "~/.netrc"],
+      "denyWrite": ["~/.ssh", "~/.aws", "~/.gnupg", "~/.netrc"]
+    }
+  },
+  "effortLevel": "high",
+  "skipDangerousModePermissionPrompt": true,
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/afplay /System/Library/Sounds/Glass.aiff"
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/afplay /System/Library/Sounds/Glass.aiff"
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/afplay /System/Library/Sounds/Glass.aiff"
+          }
+        ]
+      }
+    ]
+  }
+}
