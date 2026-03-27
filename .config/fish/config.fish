@@ -28,6 +28,8 @@ fzf_configure_bindings --directory=\ct
 #######################################
 set -gx GPG_TTY (tty)
 
+set -gx PATH $HOME/.local/bin $PATH
+
 # GO installation
 set -gx GOPATH $HOME/go
 set -gx PATH $PATH $GOPATH/bin
@@ -93,10 +95,11 @@ abbr -a to tofu
 abbr -a n lima nerdctl
 abbr -a l limactl
 abbr -a d docker
-abbr -a c container
+abbr -a co container
 abbr -a v vim
 abbr -a lg NO_COLOR= lazygit
 abbr -a oc opencode
+abbr -a c claude
 ########################################
 # Git abbreviations
 ########################################
