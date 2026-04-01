@@ -32,6 +32,7 @@
       "denyWrite": ["~/.ssh", "~/.aws", "~/.gnupg", "~/.netrc"]
     }
   },
+  "autoUpdatesChannel": "stable",
   "effortLevel": "high",
   "skipDangerousModePermissionPrompt": true,
   "hooks": {
