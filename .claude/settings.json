@@ -1,7 +1,7 @@
 {
   "permissions": {
     "defaultMode": "plan",
-    "allow": ["WebFetch(domain:gitlab.com)", "mcp__GitLab__:*"],
+    "allow": ["WebFetch", "mcp__GitLab__:*", "WebSearch"],
     "deny": [
       "Read(~/.ssh/**)",
       "Read(~/.aws/**)",
