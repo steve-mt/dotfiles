@@ -40,7 +40,11 @@ return {
 				null_ls.builtins.diagnostics.codespell.with({
 					extra_args = { "-I", vim.fn.expand("~/.codespell-ignore") },
 				}),
-				null_ls.builtins.diagnostics.vale,
+				null_ls.builtins.diagnostics.vale.with({
+				condition = function(utils)
+					return utils.root_has_file({ ".vale.ini", "_vale.ini" })
+				end,
+			}),
 				null_ls.builtins.diagnostics.golangci_lint,
 			},
 			on_attach = function(client, bufnr) -- fmt on save https://github.com/nvimtools/none-ls.nvim/wiki/Formatting-on-save
