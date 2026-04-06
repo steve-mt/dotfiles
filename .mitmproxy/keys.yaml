@@ -1,0 +1,6 @@
+- key: x
+  ctx: ["flowlist", "flowview"]
+  cmd: |
+    console.choose.cmd "Export as..." export.formats
+    console.command export.clip {choice} @focus
+  help: Export this flow to clipboard
