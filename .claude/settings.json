@@ -1,7 +1,10 @@
 {
   "permissions": {
-    "defaultMode": "plan",
-    "allow": ["WebFetch(*)", "mcp__GitLab__*", "WebSearch"],
+    "allow": [
+      "WebFetch(*)",
+      "mcp__GitLab__*",
+      "WebSearch"
+    ],
     "deny": [
       "Read(~/.ssh/**)",
       "Read(~/.aws/**)",
@@ -15,26 +18,10 @@
       "Write(~/.aws/**)",
       "Write(~/.gnupg/**)",
       "Write(~/.netrc)"
-    ]
+    ],
+    "defaultMode": "plan"
   },
   "model": "opus[1m]",
-  "enabledPlugins": {
-    "gopls-lsp@claude-plugins-official": true,
-    "code-simplifier@claude-plugins-official": true,
-    "coderabbit@claude-plugins-official": true,
-    "superpowers@claude-plugins-official": true
-  },
-  "sandbox": {
-    "autoAllowBashIfSandboxed": true,
-    "enabled": true,
-    "filesystem": {
-      "allowWrite": [".git"],
-      "denyRead": ["~/.ssh", "~/.aws", "~/.gnupg", "~/.netrc"],
-      "denyWrite": ["~/.ssh", "~/.aws", "~/.gnupg", "~/.netrc"]
-    }
-  },
-  "effortLevel": "high",
-  "skipDangerousModePermissionPrompt": true,
   "hooks": {
     "Stop": [
       {
@@ -69,5 +56,35 @@
         ]
       }
     ]
-  }
+  },
+  "enabledPlugins": {
+    "gopls-lsp@claude-plugins-official": true,
+    "code-simplifier@claude-plugins-official": true,
+    "coderabbit@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": true
+  },
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true,
+    "filesystem": {
+      "allowWrite": [
+        ".git"
+      ],
+      "denyWrite": [
+        "~/.ssh",
+        "~/.aws",
+        "~/.gnupg",
+        "~/.netrc"
+      ],
+      "denyRead": [
+        "~/.ssh",
+        "~/.aws",
+        "~/.gnupg",
+        "~/.netrc"
+      ]
+    }
+  },
+  "effortLevel": "xhigh",
+  "skipDangerousModePermissionPrompt": true,
+  "skipAutoPermissionPrompt": true
 }
