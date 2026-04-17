@@ -1,7 +1,7 @@
 {
   "permissions": {
     "defaultMode": "plan",
-    "allow": ["WebFetch", "mcp__GitLab__:*", "WebSearch"],
+    "allow": ["WebFetch(*)", "mcp__GitLab__*", "WebSearch"],
     "deny": [
       "Read(~/.ssh/**)",
       "Read(~/.aws/**)",
@@ -28,11 +28,11 @@
     "autoAllowBashIfSandboxed": true,
     "enabled": true,
     "filesystem": {
+      "allowWrite": [".git"],
       "denyRead": ["~/.ssh", "~/.aws", "~/.gnupg", "~/.netrc"],
       "denyWrite": ["~/.ssh", "~/.aws", "~/.gnupg", "~/.netrc"]
     }
   },
-  "autoUpdatesChannel": "stable",
   "effortLevel": "high",
   "skipDangerousModePermissionPrompt": true,
   "hooks": {
