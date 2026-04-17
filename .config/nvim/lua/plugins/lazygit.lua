@@ -14,7 +14,6 @@ return {
 		{
 			"<leader>lg",
 			function()
-				vim.env.NO_COLOR = nil
 				vim.cmd("LazyGit")
 			end,
 			desc = "LazyGit",

@@ -70,9 +70,6 @@ set -gx XDG_CONFIG_HOME $HOME/.config
 # Disable pre-commit color
 set -gx PRE_COMMIT_COLOR never
 
-# No Color https://no-color.org/
-set -gx NO_COLOR 1
-
 # 1password plugins
 source $HOME/.config/op/plugins.sh
 
@@ -97,7 +94,7 @@ abbr -a l limactl
 abbr -a d docker
 abbr -a co container
 abbr -a v vim
-abbr -a lg NO_COLOR= lazygit
+abbr -a lg lazygit
 abbr -a oc opencode
 abbr -a c claude
 ########################################
