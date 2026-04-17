@@ -5,7 +5,7 @@ description: Create consistent git commits
 
 ## What I do
 
-Create a commit message using the template below
+Create a commit message for the staged changes using the template below
 
 ```text
 Title
