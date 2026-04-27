@@ -3,7 +3,8 @@
     "allow": [
       "WebFetch(*)",
       "mcp__GitLab__*",
-      "WebSearch"
+      "WebSearch",
+      "Read(~/.ssh/yubikey.pub)"
     ],
     "deny": [
       "Read(~/.ssh/**)",
@@ -19,7 +20,7 @@
       "Write(~/.gnupg/**)",
       "Write(~/.netrc)"
     ],
-    "defaultMode": "plan"
+    "defaultMode": "auto"
   },
   "model": "opus[1m]",
   "hooks": {
@@ -81,10 +82,14 @@
         "~/.aws",
         "~/.gnupg",
         "~/.netrc"
+      ],
+      "allowRead": [
+        "~/.ssh/yubikey.pub"
       ]
     }
   },
   "effortLevel": "xhigh",
   "skipDangerousModePermissionPrompt": true,
-  "skipAutoPermissionPrompt": true
+  "skipAutoPermissionPrompt": true,
+  "theme": "light"
 }
