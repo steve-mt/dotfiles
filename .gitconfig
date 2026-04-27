@@ -52,7 +52,6 @@
 [core]
   editor = vim
   autocrlf = input
-  excludesfile = /Users/steve/.gitignore
 [pull]
   rebase = true
 [push]
