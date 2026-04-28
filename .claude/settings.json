@@ -64,30 +64,6 @@
     "coderabbit@claude-plugins-official": true,
     "superpowers@claude-plugins-official": true
   },
-  "sandbox": {
-    "enabled": true,
-    "autoAllowBashIfSandboxed": true,
-    "filesystem": {
-      "allowWrite": [
-        ".git"
-      ],
-      "denyWrite": [
-        "~/.ssh",
-        "~/.aws",
-        "~/.gnupg",
-        "~/.netrc"
-      ],
-      "denyRead": [
-        "~/.ssh",
-        "~/.aws",
-        "~/.gnupg",
-        "~/.netrc"
-      ],
-      "allowRead": [
-        "~/.ssh/yubikey.pub"
-      ]
-    }
-  },
   "effortLevel": "xhigh",
   "skipDangerousModePermissionPrompt": true,
   "skipAutoPermissionPrompt": true,
