@@ -51,6 +51,6 @@ palette = 13=#af8787
 palette = 6=#5f8787
 palette = 14=#87afaf
 
-# White (using chicagoGray variants)
-palette = 7=#767676
-palette = 15=#c6c6c6
+# White
+palette = 7=#ffffff
+palette = 15=#ffffff

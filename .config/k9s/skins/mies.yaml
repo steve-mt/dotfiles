@@ -1,95 +1,80 @@
 # Mies Light Theme for K9s
-# Based on https://github.com/jaredgorski/Mies.vim
-# Aligned with Ghostty terminal Mies palette
+# Palette from https://github.com/jaredgorski/Mies.vim
 k9s:
-  # General theme base colors
   body:
-    fgColor: '#080808'  # chicagoBlack1 - main text
-    bgColor: '#ffffff'  # chicagoWhite2 - main background
-    logoColor: '#5f8787'  # chicagoBlue - accent logo
+    fgColor: '#080808'
+    bgColor: '#ffffff'
+    logoColor: '#5f8787'
 
-  # Prompt and input
   prompt:
-    fgColor: '#080808'  # chicagoBlack1 - text
-    bgColor: '#b0b0b0'  # chicagoGray5 - background (matches ghostty selection-background)
-    suggestColor: '#949494'  # chicagoGray4 - suggestions
+    fgColor: '#080808'
+    bgColor: '#ffffff'
+    suggestColor: '#949494'
 
-  # Information views
   info:
-    fgColor: '#767676'  # chicagoGray3 - standard info
-    sectionColor: '#080808'  # chicagoBlack1 - section headers
+    fgColor: '#767676'
+    sectionColor: '#080808'
 
-  # Menu and views
   frame:
-    # Title
     title:
-      fgColor: '#080808'  # chicagoBlack1 - title text
-      bgColor: '#ffffff'  # chicagoWhite2 - title background
-      highlightColor: '#5f8787'  # chicagoBlue - highlighted title
-      counterColor: '#949494'  # chicagoGray4 - counters
-      filterColor: '#5f8787'  # chicagoBlue - filter indicator
+      fgColor: '#080808'
+      bgColor: '#ffffff'
+      highlightColor: '#5f8787'
+      counterColor: '#949494'
+      filterColor: '#5f8787'
 
-    # Menu
     menu:
-      fgColor: '#767676'  # chicagoGray3 - menu text
-      keyColor: '#080808'  # chicagoBlack1 - keyboard shortcuts
-      numKeyColor: '#949494'  # chicagoGray4 - numbered shortcuts
+      fgColor: '#767676'
+      keyColor: '#080808'
+      numKeyColor: '#949494'
 
-    # Crumbs
     crumbs:
-      fgColor: '#080808'  # chicagoBlack1 - text
-      bgColor: '#b0b0b0'  # chicagoGray5 - background
-      activeColor: '#5f8787'  # chicagoBlue - active crumb
+      fgColor: '#080808'
+      bgColor: '#ffffff'
+      activeColor: '#5f8787'
 
-    # Status
     status:
-      newColor: '#008700'  # chicagoGreen1 - new items
-      modifyColor: '#8e700b'  # chicagoGold1 - modified items
-      addColor: '#00af5f'  # chicagoGreen2 - added items
-      errorColor: '#d70000'  # chicagoRed - errors
-      highlightColor: '#b0b0b0'  # chicagoGray5 - highlights
-      killColor: '#d70000'  # chicagoRed - kill indicators
-      completedColor: '#767676'  # chicagoGray3 - completed items
+      newColor: '#008700'
+      modifyColor: '#8e700b'
+      addColor: '#008700'
+      errorColor: '#d70000'
+      highlightColor: '#b0b0b0'
+      killColor: '#d70000'
+      completedColor: '#767676'
 
-    # Border
     border:
-      fgColor: '#c6c6c6'  # chicagoGray6 - border color
-      focusColor: '#5f8787'  # chicagoBlue - focused border
+      fgColor: '#c6c6c6'
+      focusColor: '#5f8787'
 
-  # Views
   views:
-    # Charts
     charts:
-      bgColor: '#ffffff'  # chicagoWhite2 - chart background
+      bgColor: '#ffffff'
       defaultDialColors:
-        - '#008700'  # chicagoGreen1 - positive/ok
-        - '#d70000'  # chicagoRed - critical/danger
+        - '#008700'
+        - '#d70000'
       defaultChartColors:
-        - '#008700'  # chicagoGreen1 - series 1
-        - '#5f8787'  # chicagoBlue - series 2
-        - '#d70000'  # chicagoRed - series 3
+        - '#008700'
+        - '#5f8787'
+        - '#d70000'
 
-    # Table
     table:
-      fgColor: '#080808'  # chicagoBlack1 - text
-      bgColor: '#ffffff'  # chicagoWhite2 - background
-      cursorColor: '#c6c6c6'  # chicagoGray6 - cursor line
-      markColor: '#8e700b'  # chicagoGold1 - marked line
+      fgColor: '#080808'
+      bgColor: '#ffffff'
+      cursorColor: '#e5e5e5'
+      markColor: '#8e700b'
       header:
-        fgColor: '#080808'  # chicagoBlack1 - header text
-        bgColor: '#ffffff'  # chicagoWhite2 - header background
-        sorterColor: '#5f8787'  # chicagoBlue - sort indicator
+        fgColor: '#080808'
+        bgColor: '#ffffff'
+        sorterColor: '#5f8787'
 
-    # YAML
     yaml:
-      keyColor: '#080808'  # chicagoBlack1 - keys
-      colonColor: '#949494'  # chicagoGray4 - colons
-      valueColor: '#5f8787'  # chicagoBlue - values
+      keyColor: '#080808'
+      colonColor: '#949494'
+      valueColor: '#5f8787'
 
-    # Logs
     logs:
-      fgColor: '#080808'  # chicagoBlack1 - standard logs
-      bgColor: '#ffffff'  # chicagoWhite2 - background
+      fgColor: '#080808'
+      bgColor: '#ffffff'
       indicator:
-        fgColor: '#767676'  # chicagoGray3 - indicator
-        bgColor: '#ffffff'  # chicagoWhite2 - indicator background
+        fgColor: '#767676'
+        bgColor: '#ffffff'

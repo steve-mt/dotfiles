@@ -1,6 +1,6 @@
 k9s:
   liveViewAutoRefresh: false
-  screenDumpDir: /Users/steve/Library/Application Support/k9s/screen-dumps
+  screenDumpDir: /Users/sxuereb/Library/Application Support/k9s/screen-dumps
   refreshRate: 2
   maxConnRetry: 5
   readOnly: false
@@ -27,7 +27,6 @@ k9s:
     tail: 100
     buffer: 5000
     sinceSeconds: -1
-    fullScreen: false
     textWrap: false
     showTime: false
   thresholds:
