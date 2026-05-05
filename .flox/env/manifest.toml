@@ -34,6 +34,8 @@ jujutsu.pkg-path = "jujutsu"
 lima.pkg-path = "lima"
 docker.pkg-path = "docker"
 python3.pkg-path = "python3"
+container.pkg-path = "container"
+container.systems = ["aarch64-darwin"]
 
 ## Environment Variables ---------------------------------------------
 ##  ... available for use in the activated environment
