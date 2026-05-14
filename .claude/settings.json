@@ -65,7 +65,8 @@
     "superpowers@claude-plugins-official": true
   },
   "effortLevel": "xhigh",
+  "tui": "fullscreen",
   "skipDangerousModePermissionPrompt": true,
-  "skipAutoPermissionPrompt": true,
-  "theme": "light"
+  "theme": "light",
+  "skipAutoPermissionPrompt": true
 }
