@@ -64,6 +64,15 @@ set -gx USE_GKE_GCLOUD_AUTH_PLUGIN true
 # zoxide installation
 zoxide init fish | source
 
+# Override `z` with no args to open the fzf picker instead of jumping home
+function z
+    if test (count $argv) -eq 0
+        __zoxide_zi
+    else
+        __zoxide_z $argv
+    end
+end
+
 # Set configuration to be all in 1 place
 set -gx XDG_CONFIG_HOME $HOME/.config
 
