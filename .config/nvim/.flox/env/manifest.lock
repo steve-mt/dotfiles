@@ -27,29 +27,27 @@
     {
       "attr_path": "cargo",
       "broken": false,
-      "derivation": "/nix/store/q00849b8cn14ci8naf1ywyfzbd092w7c-cargo-1.65.0.drv",
+      "derivation": "/nix/store/dl0dn79gzqkqk550kpak9pkgk6sdlc56-cargo-1.95.0.drv",
       "description": "Downloads your Rust project's dependencies and builds your project",
       "install_id": "cargo",
       "license": "[ MIT, Apache-2.0 ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "cargo-1.65.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "cargo-1.95.0",
       "pname": "cargo",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T03:12:54.969229Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "1.65.0",
+      "version": "1.95.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/slraicdpivvfxncqlgz6a6hiwmcsmz89-cargo-1.65.0"
+        "out": "/nix/store/6ks3pm4wf78b4nir9biqy99hbld903yp-cargo-1.95.0"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -58,29 +56,27 @@
     {
       "attr_path": "cargo",
       "broken": false,
-      "derivation": "/nix/store/x163f9qyhi8ckmqawvdxkhpyv47hycfw-cargo-1.65.0.drv",
+      "derivation": "/nix/store/i49w47kp6n3qbyx47ddbyv0a5lzlpkgc-cargo-1.95.0.drv",
       "description": "Downloads your Rust project's dependencies and builds your project",
       "install_id": "cargo",
       "license": "[ MIT, Apache-2.0 ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "cargo-1.65.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "cargo-1.95.0",
       "pname": "cargo",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T03:41:21.547929Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "1.65.0",
+      "version": "1.95.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/jcd9qqc7kh5iaib2f6f7zz7kqahwbbj0-cargo-1.65.0"
+        "out": "/nix/store/1pyc40aar7cymg1i1hvlrhnp3mcdva50-cargo-1.95.0"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -89,29 +85,27 @@
     {
       "attr_path": "cargo",
       "broken": false,
-      "derivation": "/nix/store/7wavvi65l1d9yhc09gm9fjb52c9vp08g-cargo-1.65.0.drv",
+      "derivation": "/nix/store/ak37pwwiy0k67hzn1skggk2rw6nvg976-cargo-1.95.0.drv",
       "description": "Downloads your Rust project's dependencies and builds your project",
       "install_id": "cargo",
       "license": "[ MIT, Apache-2.0 ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "cargo-1.65.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "cargo-1.95.0",
       "pname": "cargo",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T04:09:00.294203Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "1.65.0",
+      "version": "1.95.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/99pkk543ismhyk5vm0nrsm1x20y9ssrd-cargo-1.65.0"
+        "out": "/nix/store/k2kynrir5rszv6dnx4lm8h39pjmsxr4c-cargo-1.95.0"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -120,29 +114,27 @@
     {
       "attr_path": "cargo",
       "broken": false,
-      "derivation": "/nix/store/ka292dhy04diz66w1kjb8ifin1yz9c0c-cargo-1.65.0.drv",
+      "derivation": "/nix/store/36gfn3aq76gz94brbxyfw35w3fsv570m-cargo-1.95.0.drv",
       "description": "Downloads your Rust project's dependencies and builds your project",
       "install_id": "cargo",
       "license": "[ MIT, Apache-2.0 ]",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "cargo-1.65.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "cargo-1.95.0",
       "pname": "cargo",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T04:40:24.174359Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "1.65.0",
+      "version": "1.95.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/zfb33jqln3y5569vf2fc6cjfp0p615x6-cargo-1.65.0"
+        "out": "/nix/store/6gcrqjdzbx71bavmmrqpl3hw1ljml7vi-cargo-1.95.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -151,29 +143,28 @@
     {
       "attr_path": "go",
       "broken": false,
-      "derivation": "/nix/store/v81c52238acqarkg0ipvfvlv8lkv8nyi-go-1.19.4.drv",
-      "description": "The Go Programming language",
+      "derivation": "/nix/store/0j94l4ngkz3fppqd0wxqsvjwri4fny1y-go-1.26.4.drv",
+      "description": "Go Programming language",
       "install_id": "go",
       "license": "BSD-3-Clause",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "go-1.19.4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "go-1.26.4",
       "pname": "go",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T03:12:56.227877Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "1.19.4",
+      "version": "1.26.4",
       "outputs_to_install": [
+        "out",
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/5bcx8rv6sy33xsf5dzkp9q8lfdqrsiwa-go-1.19.4"
+        "out": "/nix/store/kyai650rrywrzflnwda9mbk2c2j9w68r-go-1.26.4"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -182,29 +173,27 @@
     {
       "attr_path": "go",
       "broken": false,
-      "derivation": "/nix/store/8dfqqmax0pfbwkyclcm1sypa6h6ybbl8-go-1.19.4.drv",
-      "description": "The Go Programming language",
+      "derivation": "/nix/store/a402qx3ryvfilga56w29z0izz6jgi7gi-go-1.26.4.drv",
+      "description": "Go Programming language",
       "install_id": "go",
       "license": "BSD-3-Clause",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "go-1.19.4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "go-1.26.4",
       "pname": "go",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T03:41:23.896640Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "1.19.4",
+      "version": "1.26.4",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/j9fgvyljgknayp3gs9mld4ayvakcsvl0-go-1.19.4"
+        "out": "/nix/store/lgcj27hrbanbc93xm9zdrldds7b1jrw8-go-1.26.4"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -213,29 +202,27 @@
     {
       "attr_path": "go",
       "broken": false,
-      "derivation": "/nix/store/1i5z4jl1b88q4dmq4vmgfp3vkrcj9s3y-go-1.19.4.drv",
-      "description": "The Go Programming language",
+      "derivation": "/nix/store/0lvbzgq250sass3jyxxvpamk09gcnym3-go-1.26.4.drv",
+      "description": "Go Programming language",
       "install_id": "go",
       "license": "BSD-3-Clause",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "go-1.19.4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "go-1.26.4",
       "pname": "go",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T04:09:01.839364Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "1.19.4",
+      "version": "1.26.4",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/za0pnll14dv61b124n6xxnjapd150lcr-go-1.19.4"
+        "out": "/nix/store/h0z6ghmi3cihlbm163d72xs9p9nn04a1-go-1.26.4"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -244,29 +231,27 @@
     {
       "attr_path": "go",
       "broken": false,
-      "derivation": "/nix/store/aqmj5nxqymal3g7y92brbmj9hrwararb-go-1.19.4.drv",
-      "description": "The Go Programming language",
+      "derivation": "/nix/store/z0b6qhv17xys7hfpnxmk0vm31nc3pxdf-go-1.26.4.drv",
+      "description": "Go Programming language",
       "install_id": "go",
       "license": "BSD-3-Clause",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "go-1.19.4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "go-1.26.4",
       "pname": "go",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T04:40:26.718134Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "1.19.4",
+      "version": "1.26.4",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/a7875alzpnr46z6mv4ssymfdwmvr6xbq-go-1.19.4"
+        "out": "/nix/store/gb0njhqswlc5n127ikgyikvq39r40l6f-go-1.26.4"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -275,30 +260,27 @@
     {
       "attr_path": "nodejs",
       "broken": false,
-      "derivation": "/nix/store/3gkl6sfysj3yj399xxvnfv46fla8vqaq-nodejs-18.12.1.drv",
+      "derivation": "/nix/store/1a0cn85p1mwixhwy16db7v2652pz7l8g-nodejs-24.16.0.drv",
       "description": "Event-driven I/O framework for the V8 JavaScript engine",
       "install_id": "nodejs",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "nodejs-18.12.1",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "nodejs-24.16.0",
       "pname": "nodejs",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T03:13:20.493760Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "18.12.1",
+      "version": "24.16.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "libv8": "/nix/store/p1y9z8vyik3zaigp8xk1k2631lkc4ly4-nodejs-18.12.1-libv8",
-        "out": "/nix/store/l5w036ax6dpla6djgf1hbdwp2mfz00z0-nodejs-18.12.1"
+        "out": "/nix/store/1zm1xb652wk1kscxbcvbryq8y45b0gy5-nodejs-24.16.0"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -307,30 +289,27 @@
     {
       "attr_path": "nodejs",
       "broken": false,
-      "derivation": "/nix/store/vrw5mm90f8gdjj2mxl7nr28r7qv99i91-nodejs-18.12.1.drv",
+      "derivation": "/nix/store/aay2n9r5ljwfvlva807p9f0p1vpwg7mb-nodejs-24.16.0.drv",
       "description": "Event-driven I/O framework for the V8 JavaScript engine",
       "install_id": "nodejs",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "nodejs-18.12.1",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "nodejs-24.16.0",
       "pname": "nodejs",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T03:42:00.460042Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "18.12.1",
+      "version": "24.16.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "libv8": "/nix/store/lglrgvdl7jvjlfm8zaz1k115rj2gdiqm-nodejs-18.12.1-libv8",
-        "out": "/nix/store/r35wij4y7rvnjk8ziydah0j2shhjasjw-nodejs-18.12.1"
+        "out": "/nix/store/60vys190zxlx4k1jz0kyvk4vydzr7qml-nodejs-24.16.0"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -339,30 +318,27 @@
     {
       "attr_path": "nodejs",
       "broken": false,
-      "derivation": "/nix/store/xak2fmryj42d2pzjhiix72i3xj6j283g-nodejs-18.12.1.drv",
+      "derivation": "/nix/store/yc1bpd21mkkawwxkq2zskmkqjmzwgv54-nodejs-24.16.0.drv",
       "description": "Event-driven I/O framework for the V8 JavaScript engine",
       "install_id": "nodejs",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "nodejs-18.12.1",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "nodejs-24.16.0",
       "pname": "nodejs",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T04:09:32.244433Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "18.12.1",
+      "version": "24.16.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "libv8": "/nix/store/innps02az9w3iqv7jdlchpkgqarxzh8i-nodejs-18.12.1-libv8",
-        "out": "/nix/store/ibafg0ajk6nd2632lzyaiwd4p4la1h11-nodejs-18.12.1"
+        "out": "/nix/store/v04l0kjhdvbzkzrnw6ryf43dp8v0qapv-nodejs-24.16.0"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -371,30 +347,27 @@
     {
       "attr_path": "nodejs",
       "broken": false,
-      "derivation": "/nix/store/0ygsma0chi2bc33245j6px61q3kfizrs-nodejs-18.12.1.drv",
+      "derivation": "/nix/store/k9jn43g1p70zs7l9vgxh57aarg2s2jkv-nodejs-24.16.0.drv",
       "description": "Event-driven I/O framework for the V8 JavaScript engine",
       "install_id": "nodejs",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "nodejs-18.12.1",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "nodejs-24.16.0",
       "pname": "nodejs",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T04:41:05.911622Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "18.12.1",
+      "version": "24.16.0",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "libv8": "/nix/store/a11acjk7jvrb9rlr99hyf48ipwcjz25n-nodejs-18.12.1-libv8",
-        "out": "/nix/store/7ppnyqmp1c92gkfrixbz99sw7q6ifkg1-nodejs-18.12.1"
+        "out": "/nix/store/zvj0hl7rhh0ccr5vkcg3ijs3xm3sgyac-nodejs-24.16.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -403,29 +376,27 @@
     {
       "attr_path": "python3",
       "broken": false,
-      "derivation": "/nix/store/fnlv0bac9bq8iaqkvr31ryrpgd5p7a2s-python3-3.10.9.drv",
-      "description": "A high-level dynamically-typed programming language",
+      "derivation": "/nix/store/ffz1bwjdzglryqx0pn3jngal4bz66xfh-python3-3.13.13.drv",
+      "description": "High-level dynamically-typed programming language",
       "install_id": "python3",
       "license": "Python-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "python3-3.10.9",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "python3-3.13.13",
       "pname": "python3",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T03:13:37.148341Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "3.10.9",
+      "version": "3.13.13",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/3sixc33xj6wbjd3zqd5y1m1cbfhj2j2s-python3-3.10.9"
+        "out": "/nix/store/mfkdmplffnbc0av8r6pknl796a6b1r2n-python3-3.13.13"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -434,30 +405,29 @@
     {
       "attr_path": "python3",
       "broken": false,
-      "derivation": "/nix/store/n7q3kl006lvjvqgfnhvyvicf5sl5mrnl-python3-3.10.9.drv",
-      "description": "A high-level dynamically-typed programming language",
+      "derivation": "/nix/store/v13czlpngkramf29nnn8qa0l4svfflwm-python3-3.13.13.drv",
+      "description": "High-level dynamically-typed programming language",
       "install_id": "python3",
       "license": "Python-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "python3-3.10.9",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "python3-3.13.13",
       "pname": "python3",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T03:42:22.923986Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "3.10.9",
+      "version": "3.13.13",
       "outputs_to_install": [
+        "out",
         "out"
       ],
       "outputs": {
-        "debug": "/nix/store/ji250dahm8nc0lpgkc2m9i04p7aa7bma-python3-3.10.9-debug",
-        "out": "/nix/store/ar76b3831ydkmfhf0r9v3wbma5i61iz2-python3-3.10.9"
+        "debug": "/nix/store/qfb6yj603w8qxd86j0cj7w54l1pv3rkz-python3-3.13.13-debug",
+        "out": "/nix/store/smwd56pl54f0pcjdspgh5vnf20c8xwsc-python3-3.13.13"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -466,29 +436,27 @@
     {
       "attr_path": "python3",
       "broken": false,
-      "derivation": "/nix/store/55brjsrk108bvcb5yma4yhqmcyvn4jh2-python3-3.10.9.drv",
-      "description": "A high-level dynamically-typed programming language",
+      "derivation": "/nix/store/5vh9qfs54q47jybcd5zhxmap7lgk2dhg-python3-3.13.13.drv",
+      "description": "High-level dynamically-typed programming language",
       "install_id": "python3",
       "license": "Python-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "python3-3.10.9",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "python3-3.13.13",
       "pname": "python3",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T04:09:53.021160Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "3.10.9",
+      "version": "3.13.13",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/fbll01zhyfffmshwrrzphmbscmnimn3f-python3-3.10.9"
+        "out": "/nix/store/1137mc2md1ip5pdslybxl05kysjyh4rg-python3-3.13.13"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -497,30 +465,29 @@
     {
       "attr_path": "python3",
       "broken": false,
-      "derivation": "/nix/store/vgpv5w9lxnrxkdvb4hx1llxp811fd8pk-python3-3.10.9.drv",
-      "description": "A high-level dynamically-typed programming language",
+      "derivation": "/nix/store/d8rrzn9gg475brqyfpdaa3w76gzwmvx4-python3-3.13.13.drv",
+      "description": "High-level dynamically-typed programming language",
       "install_id": "python3",
       "license": "Python-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "python3-3.10.9",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "python3-3.13.13",
       "pname": "python3",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T04:41:29.489145Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "3.10.9",
+      "version": "3.13.13",
       "outputs_to_install": [
+        "out",
         "out"
       ],
       "outputs": {
-        "debug": "/nix/store/ncal75crk6rmzdzic2g560pza7hi0740-python3-3.10.9-debug",
-        "out": "/nix/store/al6g1zbk8li6p8mcyp0h60d08jaahf8c-python3-3.10.9"
+        "debug": "/nix/store/g2pg1an3v5pm2fmwg1g7dw77ddpqirg7-python3-3.13.13-debug",
+        "out": "/nix/store/l9k0anq0z7zz81zcwy035jfwap9ga6rl-python3-3.13.13"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -529,30 +496,28 @@
     {
       "attr_path": "ruby",
       "broken": false,
-      "derivation": "/nix/store/kya8fqcn7kii0825kd3dq56ypl8qzf0p-ruby-2.7.6.drv",
-      "description": "An object-oriented language for quick and easy programming",
+      "derivation": "/nix/store/7isqwnvq6jxqnaf75i3b75vz4y3aswz3-ruby-3.4.9.drv",
+      "description": "Object-oriented language for quick and easy programming",
       "install_id": "ruby",
       "license": "Ruby",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "ruby-2.7.6",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "ruby-3.4.9",
       "pname": "ruby",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T03:14:29.008080Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "2.7.6",
+      "version": "3.4.9",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "devdoc": "/nix/store/ym6cslk9vznqhh1hf0qpp4ch156x3q23-ruby-2.7.6-devdoc",
-        "out": "/nix/store/5r457z5rhswr14y86w5xg5mahv23xdb9-ruby-2.7.6"
+        "devdoc": "/nix/store/4s6ig5kgb5ra1gwx11lmfqs2c4fqnd7j-ruby-3.4.9-devdoc",
+        "out": "/nix/store/xrzvqg9ncbkp90fx5jwhwrzasbfq1p8c-ruby-3.4.9"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -561,30 +526,28 @@
     {
       "attr_path": "ruby",
       "broken": false,
-      "derivation": "/nix/store/fzc25fmkrb0xs1mc8d086bvn2npck4fk-ruby-2.7.6.drv",
-      "description": "An object-oriented language for quick and easy programming",
+      "derivation": "/nix/store/dyvx29fpd1x4vczxqj86k5asv8d2vpv5-ruby-3.4.9.drv",
+      "description": "Object-oriented language for quick and easy programming",
       "install_id": "ruby",
       "license": "Ruby",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "ruby-2.7.6",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "ruby-3.4.9",
       "pname": "ruby",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T03:43:25.657095Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "2.7.6",
+      "version": "3.4.9",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "devdoc": "/nix/store/hc0hv75n5j1sicb8hi23282jhhaxd21r-ruby-2.7.6-devdoc",
-        "out": "/nix/store/54753ig0dgmwryh6s02jf3dxqlg2v9kk-ruby-2.7.6"
+        "devdoc": "/nix/store/55pmicagm47skmm2d0b65f09drfhr1yw-ruby-3.4.9-devdoc",
+        "out": "/nix/store/y0h56495g3ym1mh7x5m84ji1gsv0n13q-ruby-3.4.9"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -593,30 +556,28 @@
     {
       "attr_path": "ruby",
       "broken": false,
-      "derivation": "/nix/store/w1kr3va5db3qcay4qrgs7ng3cs2aawna-ruby-2.7.6.drv",
-      "description": "An object-oriented language for quick and easy programming",
+      "derivation": "/nix/store/f1jda0n3i0nyrqwxl94jvh2hmm26hp2v-ruby-3.4.9.drv",
+      "description": "Object-oriented language for quick and easy programming",
       "install_id": "ruby",
       "license": "Ruby",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "ruby-2.7.6",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "ruby-3.4.9",
       "pname": "ruby",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T04:10:57.408955Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "2.7.6",
+      "version": "3.4.9",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "devdoc": "/nix/store/b4zmahh5aqwd9nciqdgaygakm77vqykf-ruby-2.7.6-devdoc",
-        "out": "/nix/store/5dbxm29kwz7pry5jydkzvnvavyd1mwbi-ruby-2.7.6"
+        "devdoc": "/nix/store/rmqxa47vl3klg1ry4p8h3l1vigscqkk6-ruby-3.4.9-devdoc",
+        "out": "/nix/store/pj6sw5j7inzw14nx4mhad31bqr5xa7ky-ruby-3.4.9"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -625,30 +586,28 @@
     {
       "attr_path": "ruby",
       "broken": false,
-      "derivation": "/nix/store/1bnf3snqh51wnlqavy9df0k71jxws47r-ruby-2.7.6.drv",
-      "description": "An object-oriented language for quick and easy programming",
+      "derivation": "/nix/store/kr2713syv2cv4zzygplq7fddwx7dfrmp-ruby-3.4.9.drv",
+      "description": "Object-oriented language for quick and easy programming",
       "install_id": "ruby",
       "license": "Ruby",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "name": "ruby-2.7.6",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=d407951447dcd00442e97087bf374aad70c04cea",
+      "name": "ruby-3.4.9",
       "pname": "ruby",
-      "rev": "fad51abd42ca17a60fc1d4cb9382e2d79ae31836",
-      "rev_count": 437630,
-      "rev_date": "2022-12-25T15:56:39Z",
-      "scrape_date": "2024-06-13T21:03:49Z",
+      "rev": "d407951447dcd00442e97087bf374aad70c04cea",
+      "rev_count": 1027867,
+      "rev_date": "2026-07-05T04:06:12Z",
+      "scrape_date": "2026-07-06T04:42:37.273477Z",
       "stabilities": [
-        "stable",
-        "staging",
         "unstable"
       ],
       "unfree": false,
-      "version": "2.7.6",
+      "version": "3.4.9",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "devdoc": "/nix/store/gff4fpws6myr3m7lbi1rn51nnvqr8gw6-ruby-2.7.6-devdoc",
-        "out": "/nix/store/ckf8k2sqhwgxm0xbncbif2jh5f67d2zi-ruby-2.7.6"
+        "devdoc": "/nix/store/w10jfni33y1b5wizvi3mir53k408n3r6-ruby-3.4.9-devdoc",
+        "out": "/nix/store/ks57gbw6jia5ssk0rd407ic2r8qvw9nn-ruby-3.4.9"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
