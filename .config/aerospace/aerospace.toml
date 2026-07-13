@@ -99,6 +99,9 @@ run = "move-node-to-workspace 4"
 if.app-id = 'com.openai.chat'
 run = "move-node-to-workspace 4"
 [[on-window-detected]]
+if.app-id = 'com.todesktop.230313mzl4w4u92'
+run = "move-node-to-workspace 4"
+[[on-window-detected]]
 if.app-id = 'com.tinyspeck.slackmacgap'
 run = "move-node-to-workspace 5"
 [[on-window-detected]]
@@ -115,6 +118,9 @@ if.app-id = 'com.apple.mail'
 run = "move-node-to-workspace 7"
 [[on-window-detected]]
 if.app-id = 'com.apple.Notes'
+run = "move-node-to-workspace 8"
+[[on-window-detected]]
+if.app-id = 'notion.id'
 run = "move-node-to-workspace 8"
 [[on-window-detected]]
 if.app-id = 'com.apple.FaceTime'
