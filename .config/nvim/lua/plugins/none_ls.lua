@@ -25,7 +25,7 @@ return {
 				}),
 				null_ls.builtins.formatting.buf,
 				null_ls.builtins.formatting.shfmt.with({
-					extra_args = { "-i", "2", "-s" },
+					extra_args = { "-s" },
 				}),
 				null_ls.builtins.formatting.hclfmt,
 
@@ -41,10 +41,10 @@ return {
 					extra_args = { "-I", vim.fn.expand("~/.codespell-ignore") },
 				}),
 				null_ls.builtins.diagnostics.vale.with({
-				condition = function(utils)
-					return utils.root_has_file({ ".vale.ini", "_vale.ini" })
-				end,
-			}),
+					condition = function(utils)
+						return utils.root_has_file({ ".vale.ini", "_vale.ini" })
+					end,
+				}),
 				null_ls.builtins.diagnostics.golangci_lint,
 			},
 			on_attach = function(client, bufnr) -- fmt on save https://github.com/nvimtools/none-ls.nvim/wiki/Formatting-on-save
