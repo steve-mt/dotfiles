@@ -22,7 +22,7 @@
     ],
     "defaultMode": "auto"
   },
-  "model": "opus[1m]",
+  "model": "claude-fable-5[1m]",
   "hooks": {
     "Stop": [
       {
@@ -58,15 +58,13 @@
       }
     ]
   },
-  "enabledPlugins": {
-    "gopls-lsp@claude-plugins-official": true,
-    "code-simplifier@claude-plugins-official": true,
-    "coderabbit@claude-plugins-official": true,
-    "superpowers@claude-plugins-official": true
+  "worktree": {
+    "bgIsolation": "none"
   },
-  "effortLevel": "xhigh",
+  "enabledPlugins": {},
+  "effortLevel": "high",
   "tui": "fullscreen",
   "skipDangerousModePermissionPrompt": true,
-  "theme": "light",
+  "theme": "auto",
   "skipAutoPermissionPrompt": true
 }
