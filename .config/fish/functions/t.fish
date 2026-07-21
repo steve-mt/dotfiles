@@ -92,7 +92,9 @@ function t
     tmux send-keys -t "$name" "vim" Enter
 
     tmux new-window -t "$name" -c "$dir" -n ''
-    if command -q claude
+    if command -q agent
+        tmux send-keys -t "$name" "agent" Enter
+    else if command -q claude
         tmux send-keys -t "$name" "claude" Enter
     else if command -q pi
         tmux send-keys -t "$name" "pi" Enter
