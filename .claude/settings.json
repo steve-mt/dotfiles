@@ -1,11 +1,5 @@
 {
   "permissions": {
-    "allow": [
-      "WebFetch(*)",
-      "mcp__GitLab__*",
-      "WebSearch",
-      "Read(~/.ssh/yubikey.pub)"
-    ],
     "deny": [
       "Read(~/.ssh/**)",
       "Read(~/.aws/**)",
@@ -19,6 +13,10 @@
       "Write(~/.aws/**)",
       "Write(~/.gnupg/**)",
       "Write(~/.netrc)"
+    ],
+    "ask": [
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ],
     "defaultMode": "auto"
   },
