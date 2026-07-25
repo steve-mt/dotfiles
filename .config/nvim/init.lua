@@ -24,4 +24,5 @@ require("lazy").setup({
 	rocks = {
 		enabled = false,
 	},
+	concurrency = 4,
 })
