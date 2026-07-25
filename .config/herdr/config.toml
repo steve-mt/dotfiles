@@ -1,33 +1,25 @@
 onboarding = false
 
-# ---------------------------------------------------------------------------
-# Theme — Mies light palette
-# ---------------------------------------------------------------------------
-# Mies is nearly monochrome: black text on white, gray accents.
-# Built-in "terminal" follows host ANSI; we override tokens for Mies chrome.
 [theme]
 name = "terminal"
 
 [theme.custom]
-# Core surfaces (Mies light Normal/StatusLine)
-panel_bg    = "#FFFFFF"   # chicagoWhite2 — main chrome background
-surface0    = "#D0D0D0"   # chicagoWhite1 — subtle raised surface
-surface1    = "#C6C6C6"   # chicagoGray6
-surface_dim = "#B0B0B0"   # chicagoGray5
-overlay0    = "#949494"   # chicagoGray4
-overlay1    = "#767676"   # chicagoGray3
-text        = "#080808"   # chicagoBlack1
-subtext0    = "#767676"   # chicagoGray3 — inactive labels
-
-# Semantic accents from Mies
-accent = "#767676"        # chicagoGray3 — active borders / highlights
-blue   = "#5F8787"        # chicagoBlue
-teal   = "#5F8787"
-green  = "#008700"        # chicagoGreen1
-yellow = "#8E700B"        # chicagoGold1 (activity)
-peach  = "#D7AF00"        # chicagoGold2 (search/warn)
-red    = "#D70000"        # chicagoRed (bells)
-mauve  = "#3E3D32"        # chicagoGray1
+panel_bg    = "reset"
+surface0    = "reset"
+surface1    = "reset"
+surface_dim = "reset"
+overlay0    = "#949494"
+overlay1    = "#767676"
+text        = "#080808"
+subtext0    = "#767676"
+accent      = "reset"
+blue        = "#5F8787"
+teal        = "#5F8787"
+green       = "#008700"
+yellow      = "#8E700B"
+peach       = "#D7AF00"
+red         = "#D70000"
+mauve       = "#3E3D32"
 
 [terminal]
 default_shell = ""
@@ -106,13 +98,10 @@ type = "plugin_action"
 command = "local.vim-navigator.right"
 description = "Vim-aware pane right"
 
-# ---------------------------------------------------------------------------
-# UI — status/pane aesthetics from Mies tmux block
-# ---------------------------------------------------------------------------
 [ui]
-pane_borders = false
+pane_borders = true
 pane_gaps = false
-accent = "#767676"
+accent = "reset"
 
 prompt_new_tab_name = false
 confirm_close = true
