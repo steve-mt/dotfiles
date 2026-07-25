@@ -1,5 +1,5 @@
 {
-  "lastChangelogVersion": "0.80.6",
+  "lastChangelogVersion": "0.82.0",
   "defaultProvider": "opencode",
   "defaultModel": "grok-4.5",
   "defaultThinkingLevel": "low",
