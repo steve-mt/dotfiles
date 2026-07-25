@@ -94,12 +94,8 @@ function t
     tmux new-window -t "$name" -c "$dir" -n ''
     if command -q agent
         tmux send-keys -t "$name" "agent" Enter
-    else if command -q claude
-        tmux send-keys -t "$name" "claude" Enter
     else if command -q pi
         tmux send-keys -t "$name" "pi" Enter
-    else
-        tmux send-keys -t "$name" "opencode" Enter
     end
 
     tmux new-window -t "$name" -c "$dir" -n ''
