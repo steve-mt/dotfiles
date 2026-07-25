@@ -1,7 +1,7 @@
 {
-  "lastChangelogVersion": "0.79.6",
+  "lastChangelogVersion": "0.80.6",
   "defaultProvider": "opencode",
-  "defaultModel": "gpt-5.5",
+  "defaultModel": "grok-4.5",
   "defaultThinkingLevel": "low",
   "theme": "mies-light",
   "quietStartup": true,
