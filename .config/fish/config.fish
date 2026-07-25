@@ -26,8 +26,6 @@ fzf_configure_bindings --directory=\ct
 ########################################
 # General env
 #######################################
-set -gx GPG_TTY (tty)
-
 set -gx PATH $HOME/.local/bin $PATH
 
 # GO installation
@@ -42,14 +40,16 @@ alias vim nvim
 set -gx VISUAL "nvim"
 set -gx EDITOR $VISUAL
 
-# Start tmux when not set
+# Start herdr (fallback to tmux) in interactive shells
 if status is-interactive
-and not set -q TMUX
-    exec tmux new-session -n ""
+    and not set -q HERDR_ENV
+    and not set -q TMUX
+    if type -q herdr
+        exec herdr
+    else if type -q tmux
+        exec tmux new-session -n ""
+    end
 end
-
-# Make ssh use yubikey-agent
-set -gx SSH_AUTH_SOCK "/opt/homebrew/var/run/yubikey-agent.sock"
 
 # Set locale
 set -gx LC_ALL en_US.UTF-8
@@ -82,12 +82,6 @@ set -gx PRE_COMMIT_COLOR never
 
 # 1password plugins
 source $HOME/.config/op/plugins.sh
-
-########################################
-# GitLab
-#######################################
-set -gx VAULT_ADDR https://vault.ops.gke.gitlab.net
-set -gx VAULT_PROXY_ADDR socks5://localhost:18200
 
 ########################################
 # General abbreviations

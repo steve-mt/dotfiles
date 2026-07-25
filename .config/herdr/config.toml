@@ -1,0 +1,156 @@
+onboarding = false
+
+# ---------------------------------------------------------------------------
+# Theme — Mies light palette
+# ---------------------------------------------------------------------------
+# Mies is nearly monochrome: black text on white, gray accents.
+# Built-in "terminal" follows host ANSI; we override tokens for Mies chrome.
+[theme]
+name = "terminal"
+
+[theme.custom]
+# Core surfaces (Mies light Normal/StatusLine)
+panel_bg    = "#FFFFFF"   # chicagoWhite2 — main chrome background
+surface0    = "#D0D0D0"   # chicagoWhite1 — subtle raised surface
+surface1    = "#C6C6C6"   # chicagoGray6
+surface_dim = "#B0B0B0"   # chicagoGray5
+overlay0    = "#949494"   # chicagoGray4
+overlay1    = "#767676"   # chicagoGray3
+text        = "#080808"   # chicagoBlack1
+subtext0    = "#767676"   # chicagoGray3 — inactive labels
+
+# Semantic accents from Mies
+accent = "#767676"        # chicagoGray3 — active borders / highlights
+blue   = "#5F8787"        # chicagoBlue
+teal   = "#5F8787"
+green  = "#008700"        # chicagoGreen1
+yellow = "#8E700B"        # chicagoGold1 (activity)
+peach  = "#D7AF00"        # chicagoGold2 (search/warn)
+red    = "#D70000"        # chicagoRed (bells)
+mauve  = "#3E3D32"        # chicagoGray1
+
+[terminal]
+default_shell = ""
+shell_mode = "login"
+new_cwd = "follow"
+
+[keys]
+prefix = "ctrl+b"
+
+workspace_picker = "prefix+s"
+navigate_workspace_up = ["k", "up"]
+navigate_workspace_down = ["j", "down"]
+new_workspace = "prefix+shift+s"
+settings = "prefix+comma"
+goto = "prefix+g"
+detach = "prefix+d"
+reload_config = "prefix+shift+r"
+
+previous_agent = ["prefix+k"]
+next_agent = ["prefix+j"]
+focus_agent = "prefix+shift+1..9"
+
+new_tab = "prefix+c"
+rename_tab = "prefix+shift+t"
+previous_tab = "prefix+p"
+next_tab = "prefix+n"
+switch_tab = "prefix+1..9"
+close_tab = "prefix+shift+x"
+
+focus_pane_left = ""
+focus_pane_down = ""
+focus_pane_up = ""
+focus_pane_right = ""
+navigate_pane_left = "h"
+navigate_pane_right = "l"
+navigate_pane_down = "ctrl+j"
+navigate_pane_up = "ctrl+k"
+
+resize_mode = "prefix+r"
+
+split_vertical = "prefix+v"
+split_horizontal = "prefix+minus"
+close_pane = "prefix+x"
+zoom = "prefix+z"
+cycle_pane_next = "prefix+tab"
+cycle_pane_previous = "prefix+shift+tab"
+rename_pane = "prefix+shift+p"
+
+copy_mode = "prefix+["
+edit_scrollback = "prefix+e"
+
+toggle_sidebar = "prefix+b"
+help = "prefix+?"
+
+[[keys.command]]
+key = "ctrl+h"
+type = "plugin_action"
+command = "local.vim-navigator.left"
+description = "Vim-aware pane left"
+
+[[keys.command]]
+key = "ctrl+j"
+type = "plugin_action"
+command = "local.vim-navigator.down"
+description = "Vim-aware pane down"
+
+[[keys.command]]
+key = "ctrl+k"
+type = "plugin_action"
+command = "local.vim-navigator.up"
+description = "Vim-aware pane up"
+
+[[keys.command]]
+key = "ctrl+l"
+type = "plugin_action"
+command = "local.vim-navigator.right"
+description = "Vim-aware pane right"
+
+# ---------------------------------------------------------------------------
+# UI — status/pane aesthetics from Mies tmux block
+# ---------------------------------------------------------------------------
+[ui]
+pane_borders = false
+pane_gaps = false
+accent = "#767676"
+
+prompt_new_tab_name = false
+confirm_close = true
+
+copy_on_select = true
+mouse_capture = true
+mouse_scroll_lines = 3
+
+sidebar_start_collapsed = false
+sidebar_width = 26
+
+[ui.sidebar.agents]
+row_gap = 0
+rows = [
+  ["state_icon", "workspace", { token = "tab", fg = "#080808" }],
+  [{ token = "agent", fg = "#080808" }],
+]
+
+[ui.sidebar.spaces]
+row_gap = 0
+rows = [
+  ["state_icon", "workspace"],
+  ["branch", "git_status"],
+]
+
+[ui.toast]
+delivery = "herdr"
+delay_seconds = 1
+
+[ui.toast.herdr]
+position = "bottom-right"
+
+[ui.toast.clipboard]
+enabled = true
+position = "bottom-center"
+
+[ui.sound]
+enabled = true
+
+[session]
+resume_agents_on_restore = true
