@@ -40,15 +40,9 @@ alias vim nvim
 set -gx VISUAL "nvim"
 set -gx EDITOR $VISUAL
 
-# Start herdr (fallback to tmux) in interactive shells
 if status is-interactive
-    and not set -q HERDR_ENV
-    and not set -q TMUX
-    if type -q herdr
-        exec herdr
-    else if type -q tmux
-        exec tmux new-session -n ""
-    end
+and not set -q TMUX
+  exec tmux new-session -n ""
 end
 
 # Set locale
