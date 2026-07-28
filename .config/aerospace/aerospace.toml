@@ -96,7 +96,7 @@ run = "move-node-to-workspace 3"
 if.app-id = 'com.anthropic.claudefordesktop'
 run = "move-node-to-workspace 4"
 [[on-window-detected]]
-if.app-id = 'com.openai.chat'
+if.app-id = 'com.openai.codex'
 run = "move-node-to-workspace 4"
 [[on-window-detected]]
 if.app-id = 'com.todesktop.230313mzl4w4u92'
