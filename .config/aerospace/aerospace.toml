@@ -17,7 +17,7 @@ outer.top =        0
 outer.right =      0
 
 [mode.main.binding]
-alt-space = 'layout tiles horizontal vertical'
+alt-backtick = 'layout tiles horizontal vertical'
 alt-comma = 'layout accordion horizontal vertical'
 
 alt-h = 'focus left'
