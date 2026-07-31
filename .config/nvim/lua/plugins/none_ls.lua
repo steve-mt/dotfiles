@@ -24,9 +24,7 @@ return {
 					extra_args = { "-I", vim.fn.expand("~/.codespell-ignore") },
 				}),
 				null_ls.builtins.formatting.buf,
-				null_ls.builtins.formatting.shfmt.with({
-					extra_args = { "-s" },
-				}),
+				null_ls.builtins.formatting.shfmt,
 				null_ls.builtins.formatting.hclfmt,
 
 				-- Linters
