@@ -11,45 +11,44 @@ mouse-hide-while-typing = true
 #####################
 #      Theme        #
 #####################
-# Mies Light theme for Ghostty
-# Based on https://github.com/jaredgorski/Mies.vim
+# Mies Light for Ghostty — colors from https://github.com/jaredgorski/Mies.vim
 
-# Basic colors
-background = ffffff
-foreground = 080808
-cursor-color = 1c1c1c
-selection-background = b0b0b0
-selection-foreground = 080808
+# Editor (light Normal / Cursor / Visual)
+background = #ffffff
+foreground = #080808
+cursor-color = #1c1c1c
+cursor-text = #ffffff
+selection-background = #B0B0B0
+selection-foreground = #080808
 
-# Color palette
-# Black (using chicagoBlack variants)
+# Black — chicagoBlack1 / chicagoGray3 (bright black ≈ comments)
 palette = 0=#080808
-palette = 8=#1c1c1c
+palette = 8=#767676
 
-# Red (using chicagoRed)
-palette = 1=#d70000
-palette = 9=#ff0000
+# Red — chicagoRed only (no bright variant in Mies)
+palette = 1=#D70000
+palette = 9=#D70000
 
-# Green (using chicagoGreen variants)
+# Green — chicagoGreen1 / chicagoGreen2
 palette = 2=#008700
 palette = 10=#00af5f
 
-# Yellow/Gold (using chicagoGold variants)
-palette = 3=#8e700b
-palette = 11=#d7af00
+# Yellow — chicagoGold1 / chicagoGold2
+palette = 3=#8E700B
+palette = 11=#D7AF00
 
-# Blue (using chicagoBlue)
-palette = 4=#5f8787
-palette = 12=#87afaf
+# Blue — chicagoBlue only
+palette = 4=#5F8787
+palette = 12=#5F8787
 
-# Magenta (deriving from theme colors)
-palette = 5=#875f5f
-palette = 13=#af8787
+# Magenta — no magenta in Mies; chicagoBrown / chicagoGray4
+palette = 5=#5F5F00
+palette = 13=#949494
 
-# Cyan (variation of chicagoBlue)
-palette = 6=#5f8787
-palette = 14=#87afaf
+# Cyan — no distinct cyan; same teal as blue
+palette = 6=#5F8787
+palette = 14=#5F8787
 
-# White
-palette = 7=#ffffff
-palette = 15=#ffffff
+# White — chicagoGray6 / chicagoWhite1 (not #fff; invisible on light bg)
+palette = 7=#C6C6C6
+palette = 15=#D0D0D0
