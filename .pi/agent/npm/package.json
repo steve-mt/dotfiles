@@ -2,6 +2,7 @@
   "name": "pi-extensions",
   "private": true,
   "dependencies": {
-    "pi-web-access": "^0.17.1"
+    "pi-mcp-adapter": "^2.18.0",
+    "pi-web-access": "^0.18.0"
   }
 }

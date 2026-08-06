@@ -1,11 +1,17 @@
 {
-  "lastChangelogVersion": "0.83.0",
-  "defaultProvider": "opencode",
-  "defaultModel": "grok-4.5",
-  "defaultThinkingLevel": "low",
+  "lastChangelogVersion": "0.84.0",
+  "defaultProvider": "anthropic",
+  "defaultModel": "claude-sonnet-5",
+  "defaultThinkingLevel": "high",
   "theme": "mies-light",
   "quietStartup": true,
   "packages": [
-    "npm:pi-web-access"
-  ]
+    "npm:pi-web-access",
+    "npm:pi-mcp-adapter"
+  ],
+  "outputPad": 1,
+  "warnings": {
+    "anthropicExtraUsage": false
+  },
+  "tuiMode": "regular"
 }
