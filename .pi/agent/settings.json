@@ -1,13 +1,15 @@
 {
-  "lastChangelogVersion": "0.84.0",
-  "defaultProvider": "anthropic",
-  "defaultModel": "claude-sonnet-5",
-  "defaultThinkingLevel": "high",
+  "lastChangelogVersion": "0.84.1",
+  "defaultProvider": "fireworks",
+  "defaultModel": "accounts/fireworks/models/kimi-k3",
+  "defaultThinkingLevel": "max",
   "theme": "mies-light",
   "quietStartup": true,
   "packages": [
     "npm:pi-web-access",
-    "npm:pi-mcp-adapter"
+    "npm:pi-mcp-adapter",
+    "npm:pi-subagents",
+    "npm:@plannotator/pi-extension"
   ],
   "outputPad": 1,
   "warnings": {
