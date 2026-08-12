@@ -1,2 +1,2 @@
 disable_metrics = true
-shell_prompt = "hide-all"
+set_prompt = false
