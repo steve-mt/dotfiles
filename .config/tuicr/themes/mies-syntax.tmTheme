@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Grayscale syntax to match Mies.vim light: black text, gray comments. -->
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>Mies Light</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#080808</string>
+        <key>background</key>
+        <string>#FFFFFF</string>
+        <key>caret</key>
+        <string>#1C1C1C</string>
+        <key>selection</key>
+        <string>#B0B0B0</string>
+        <key>lineHighlight</key>
+        <string>#D0D0D0</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Comment</string>
+      <key>scope</key>
+      <string>comment</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#767676</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Invalid</string>
+      <key>scope</key>
+      <string>invalid, invalid.illegal</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#080808</string>
+        <key>background</key>
+        <string>#D70000</string>
+      </dict>
+    </dict>
+  </array>
+</dict>
+</plist>

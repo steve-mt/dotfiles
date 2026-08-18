@@ -1,0 +1,17 @@
+theme = "mies"
+
+# Conventional Comments: https://conventionalcomments.org/
+# First type is the default when you press `c`. Tab cycles in this order; None is always last.
+comment_types = [
+  { id = "suggestion", definition = "propose an improvement and why", color = "cyan" },
+  { id = "question", definition = "ask for clarification or investigation", color = "yellow" },
+  { id = "thought", definition = "idea from review; non-blocking", color = "blue" },
+  { id = "issue", definition = "specific problem that should be fixed", color = "red" },
+  { id = "praise", definition = "highlight something positive", color = "green" },
+  { id = "nitpick", definition = "trivial preference-based request; non-blocking", color = "#d19a66" },
+  { id = "chore", definition = "process task that must be done before merge" },
+  { id = "note", definition = "no action required; interesting observation" },
+]
+
+[forge]
+comment_type_prefix = true

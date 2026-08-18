@@ -1,0 +1,54 @@
+# Mies light — https://github.com/jaredgorski/Mies.vim
+# Palette from colors/mies.vim (&background == 'light').
+# Diff backgrounds are light tints of Mies green/red so line highlights stay readable.
+
+panel_bg = "#FFFFFF"
+bg_highlight = "#D0D0D0"
+fg_primary = "#080808"
+fg_secondary = "#3E3D32"
+fg_dim = "#767676"
+
+diff_add = "#008700"
+diff_add_bg = "#E6F2E6"
+diff_del = "#D70000"
+diff_del_bg = "#F8E6E6"
+diff_context = "#080808"
+diff_hunk_header = "#5F8787"
+expanded_context_fg = "#767676"
+
+syntax_add_bg = "#E6F2E6"
+syntax_del_bg = "#F8E6E6"
+syntax_theme = "mies-syntax.tmTheme"
+
+file_added = "#008700"
+file_modified = "#8E700B"
+file_deleted = "#D70000"
+file_renamed = "#5F8787"
+
+reviewed = "#008700"
+pending = "#8E700B"
+
+comment_note = "#767676"
+comment_suggestion = "#5F8787"
+comment_issue = "#D70000"
+comment_praise = "#008700"
+
+border_focused = "#080808"
+border_unfocused = "#C6C6C6"
+status_bar_bg = "#D0D0D0"
+cursor_color = "#1C1C1C"
+cursor_line_bg = "#D0D0D0"
+branch_name = "#5F8787"
+help_indicator = "#767676"
+
+message_info_fg = "#FFFFFF"
+message_info_bg = "#5F8787"
+message_warning_fg = "#080808"
+message_warning_bg = "#D7AF00"
+message_error_fg = "#080808"
+message_error_bg = "#D70000"
+update_badge_fg = "#080808"
+update_badge_bg = "#D7AF00"
+
+mode_fg = "#FFFFFF"
+mode_bg = "#3E3D32"
