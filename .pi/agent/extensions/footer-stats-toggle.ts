@@ -6,7 +6,7 @@
  *   - model • thinking level
  *
  * /stats toggles the token/cost/context stats line (↑17k ↓1.1k R74k ...).
- * MCP extension statuses are always hidden; other extension statuses show.
+ * MCP and Cursor SDK extension statuses are always hidden; other extension statuses show.
  *
  * Preference persists across restarts in ~/.pi/agent/footer-stats.json.
  */
@@ -174,10 +174,10 @@ export default function (pi: ExtensionAPI) {
 						lines.push(theme.fg("dim", statsLeft));
 					}
 
-					// Line 3: extension statuses, excluding MCP — only if any remain
+					// Line 3: extension statuses, excluding MCP and Cursor SDK — only if any remain
 					const statuses = footerData.getExtensionStatuses();
 					const visibleStatuses = Array.from(statuses.entries())
-						.filter(([key]) => !key.startsWith("mcp"))
+						.filter(([key]) => !key.startsWith("mcp") && key !== "cursor")
 						.sort(([a], [b]) => a.localeCompare(b))
 						.map(([, text]) => sanitize(text));
 					if (visibleStatuses.length > 0) {

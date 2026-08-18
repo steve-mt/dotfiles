@@ -1,19 +1,22 @@
 {
-  "lastChangelogVersion": "0.84.1",
-  "defaultProvider": "fireworks",
-  "defaultModel": "accounts/fireworks/models/kimi-k3",
-  "defaultThinkingLevel": "max",
+  "lastChangelogVersion": "0.84.2",
+  "defaultProvider": "cursor",
+  "defaultModel": "grok-4.6:fast",
+  "defaultThinkingLevel": "high",
   "theme": "mies-light",
   "quietStartup": true,
   "packages": [
     "npm:pi-web-access",
     "npm:pi-mcp-adapter",
     "npm:pi-subagents",
-    "npm:@plannotator/pi-extension"
+    "npm:@plannotator/pi-extension",
+    "npm:pi-cursor-sdk"
   ],
+  "editorPaddingX": 1,
   "outputPad": 1,
   "warnings": {
     "anthropicExtraUsage": false
   },
-  "tuiMode": "regular"
+  "tuiMode": "regular",
+  "hideThinkingBlock": true
 }
