@@ -42,6 +42,8 @@ set -gx EDITOR $VISUAL
 
 if status is-interactive
 and not set -q TMUX
+and not set -q VSCODE_RESOLVING_ENVIRONMENT # Cursor/VS Code spawn interactive login fish (no TTY) to capture env.
+and isatty stdin
   exec tmux new-session -n ""
 end
 
