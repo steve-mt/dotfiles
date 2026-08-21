@@ -87,18 +87,17 @@ function t
     end
 
     # Create new session with 3 windows
-    tmux new-session -d -s "$name" -c "$dir" -n ''
-    tmux set-option -t "$name" automatic-rename off
+    tmux new-session -d -s "$name" -c "$dir"
     tmux send-keys -t "$name" "vim" Enter
 
-    tmux new-window -t "$name" -c "$dir" -n ''
+    tmux new-window -t "$name" -c "$dir"
     if command -q pi
         tmux send-keys -t "$name" "pi" Enter
     else if command -q agent
         tmux send-keys -t "$name" "agent" Enter
     end
 
-    tmux new-window -t "$name" -c "$dir" -n ''
+    tmux new-window -t "$name" -c "$dir"
 
     tmux select-window -t "$name:1"
 
