@@ -3,6 +3,7 @@ keybind = shift+enter=text:\x1b\r
 #####################
 #      Appearance   #
 #####################
+font-size = 14
 window-decoration = false
 adjust-cell-height = 20%
 window-padding-x = 10
